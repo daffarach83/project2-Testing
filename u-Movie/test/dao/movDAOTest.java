@@ -6,19 +6,12 @@
 package dao;
 
 import java.util.List;
-import java.util.List;
-import javax.persistence.PersistenceException;
-import junit.framework.AssertionFailedError;
-import org.hibernate.HibernateException;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 import org.junit.After;
-import org.junit.AfterClass;
 import org.junit.Before;
-import org.junit.BeforeClass;
 import org.junit.Test;
 import static org.junit.Assert.*;
-import org.hibernate.exception.ConstraintViolationException;
 import pojo.Movies;
 import util.fdoUtil;
 
