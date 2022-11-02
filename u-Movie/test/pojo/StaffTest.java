@@ -52,11 +52,9 @@ public class StaffTest {
     public void testLogout() {
         System.out.println("logout");
         Staff instance = new Staff();
-        String expResult = "";
+        String expResult = "index";
         String result = instance.logout();
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
     }
 
     /**
@@ -66,11 +64,10 @@ public class StaffTest {
     public void testGetId() {
         System.out.println("getId");
         Staff instance = new Staff();
-        Integer expResult = null;
+        Integer expResult = 4;
+        instance.setId(expResult);
         Integer result = instance.getId();
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
     }
 
     /**
