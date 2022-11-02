@@ -5,6 +5,7 @@
  */
 package dao;
 
+import java.util.GregorianCalendar;
 import java.util.List;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
@@ -50,7 +51,7 @@ public class movDAOTest {
     @Test
     public void testGetbyID() {
         System.out.println("Test Search by ID");
-        String idMov = "13";
+        String idMov = "6";
         movDAO instance = new movDAO();
         List<Movies> result = instance.getbyID(idMov);
         assertFalse(result.isEmpty());
@@ -67,10 +68,11 @@ public class movDAOTest {
         mov.setTitle("The Call");
         mov.setGenre("Action");
         mov.setLanguage("Korean");
-        mov.setCasts("Park Shin-Hye, Jeon Jong-seo, Kim Sung-ryung,  Lee El, Park Ho-San");
+        mov.setCasts("Park Shin-Hye, Jeon Jong-seo, Kim Sung-ryung");
         mov.setDirector("Chung-Hyun Lee");
         mov.setProduction("Yong Film");
         mov.setYtlink("hxkKeniT-0Q");
+        mov.setRdate(new GregorianCalendar(2020, 10, 29).getTime());
         
         movDAO instance = new movDAO();
         instance.addMovie(mov);
@@ -110,16 +112,17 @@ public class movDAOTest {
         Transaction transaction = null;
         Session session = fdoUtil.getSessionFactory().openSession();
         
-        int id = 2;
+        int id = 6;
         Movies mov  = new Movies();
         mov.setId(id);
         mov.setTitle("The Call");
         mov.setGenre("Horror");
         mov.setLanguage("English");
-        mov.setCasts("Park Shin-Hye, Jeon Jong-seo, Kim Sung-ryung,  Lee El, Park Ho-San");
+        mov.setCasts("Park Shin-Hye, Jeon Jong-seo, Kim Sung-ryung");
         mov.setDirector("Chung-Hyun Lee");
         mov.setProduction("Yong Film");
         mov.setYtlink("hxkKeniT-0Q");
+        mov.setRdate(new GregorianCalendar(2020, 10, 29).getTime());
         
         transaction = session.beginTransaction();
         instance.editMovie(mov);
@@ -127,7 +130,7 @@ public class movDAOTest {
         
         Movies updateMovies = (Movies) session.get(Movies.class, id);
         
-        String expResult = "American Horror Stories";
+        String expResult = "The Call";
         String result = updateMovies.getTitle();
         
         assertEquals(expResult, result);

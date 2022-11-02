@@ -5,9 +5,7 @@ package pojo;
 import dao.movDAO;
 import java.util.Date;
 import java.util.List;
-import javax.faces.application.FacesMessage;
 import javax.faces.bean.ManagedBean;
-import javax.faces.context.FacesContext;
 import util.fdoUtil;
 
 /**
@@ -36,11 +34,6 @@ public class Movies  implements java.io.Serializable {
     }
     
     public String goBack(){
-        FacesContext.getCurrentInstance().addMessage(
-		null,
-		new FacesMessage(FacesMessage.SEVERITY_WARN,
-			"You're Cancelling Editing Movie ",
-			title));
      id = null; title = ""; ytlink = ""; genre = ""; rdate = null; language = ""; casts = ""; director = ""; production = "";
        return "dashboard";
     }
@@ -48,11 +41,6 @@ public class Movies  implements java.io.Serializable {
     public String deleteMov(int ids) {
         movDAO mov = new movDAO();
         mov.deleteMovie(ids);
-        FacesContext.getCurrentInstance().addMessage(
-					null,
-					new FacesMessage(FacesMessage.SEVERITY_INFO,
-							"SUCCESSFULLY !!DELETE!! THE MOVIE ",
-                                                ""));
      id = null; title = ""; ytlink = ""; genre = ""; rdate = null; language = ""; casts = ""; director = ""; production = "";
         return "dashboard";
     }
@@ -62,15 +50,10 @@ public class Movies  implements java.io.Serializable {
         movDAO mov = new movDAO();
         List<Movies> listMov = mov.getbyID(idLib);
         try {
-            if (listMov != null) {
+            if (!listMov.isEmpty()) {
                 title = listMov.get(0).title; tempimg=listMov.get(0).ytlink; ytlink = "https://www.youtube.com/watch?v="+listMov.get(0).ytlink; genre = listMov.get(0).genre; rdate = listMov.get(0).rdate; language = listMov.get(0).language; casts = listMov.get(0).casts; director = listMov.get(0).director; production = listMov.get(0).production;
                 return "editor";
             }else{
-              FacesContext.getCurrentInstance().addMessage(
-		null,
-		new FacesMessage(FacesMessage.SEVERITY_WARN,
-			"MOVIE NOT FOUND",
-			""));  
               return "dashboard";
             }
         } catch (Exception e) {
@@ -83,11 +66,6 @@ public class Movies  implements java.io.Serializable {
         fdoUtil sch = new fdoUtil();
         String validation = sch.inputValid(title, ytlink, casts, director, production);
             if (!validation.isEmpty()) {
-                FacesContext.getCurrentInstance().addMessage(
-					null,
-					new FacesMessage(FacesMessage.SEVERITY_ERROR,
-							"ERROR WHILE ADDING NEW MOVIE DUE TO:",
-							validation));
             title = ""; ytlink = ""; genre = ""; rdate = null; language = ""; casts = ""; director = ""; production = "";
             return "dashboard"; 
             } else {
@@ -95,11 +73,6 @@ public class Movies  implements java.io.Serializable {
             ytlink = video_id;
             movDAO mov = new movDAO();
             mov.addMovie(this);
-                FacesContext.getCurrentInstance().addMessage(
-					null,
-					new FacesMessage(FacesMessage.SEVERITY_INFO,
-							"SUCCESS ADDING NEW MOVIE :",
-							title));
             title = ""; ytlink = ""; genre = ""; rdate = null; language = ""; casts = ""; director = ""; production = "";
             }
         return "dashboard";   
@@ -109,11 +82,6 @@ public class Movies  implements java.io.Serializable {
         fdoUtil sch = new fdoUtil();
         String validation = sch.inputValid(title, ytlink, casts, director, production);
             if (!validation.isEmpty()) {
-                FacesContext.getCurrentInstance().addMessage(
-					null,
-					new FacesMessage(FacesMessage.SEVERITY_ERROR,
-							"ERROR WHILE EDITING MOVIE "+title+" DUE TO:",
-							validation));
             tempimg = ""; title = ""; ytlink = ""; genre = ""; rdate = null; language = ""; casts = ""; director = ""; production = "";
             return "dashboard"; 
             } else { 
@@ -121,11 +89,6 @@ public class Movies  implements java.io.Serializable {
             ytlink = video_id;
             movDAO mov = new movDAO();
             mov.editMovie(this);
-                FacesContext.getCurrentInstance().addMessage(
-					null,
-					new FacesMessage(FacesMessage.SEVERITY_INFO,
-							"SUCCESS EDITING MOVIE :",
-							title));
             tempimg = "";title = ""; ytlink = ""; genre = ""; rdate = null; language = ""; casts = ""; director = ""; production = "";
         }      
         return "dashboard"; 
