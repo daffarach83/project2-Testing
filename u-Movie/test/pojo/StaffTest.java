@@ -76,11 +76,9 @@ public class StaffTest {
     @Test
     public void testSetId() {
         System.out.println("setId");
-        Integer id = null;
+        Integer id = 4;
         Staff instance = new Staff();
         instance.setId(id);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
     }
 
     /**
@@ -90,11 +88,10 @@ public class StaffTest {
     public void testGetUsername() {
         System.out.println("getUsername");
         Staff instance = new Staff();
-        String expResult = "";
+        String expResult = "admin";
+        instance.setUsername(expResult);
         String result = instance.getUsername();
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
     }
 
     /**
@@ -106,8 +103,6 @@ public class StaffTest {
         String username = "";
         Staff instance = new Staff();
         instance.setUsername(username);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
     }
 
     /**
@@ -117,11 +112,10 @@ public class StaffTest {
     public void testGetPassword() {
         System.out.println("getPassword");
         Staff instance = new Staff();
-        String expResult = "";
+        String expResult = "admin";
+        instance.setPassword(expResult);
         String result = instance.getPassword();
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
     }
 
     /**
@@ -130,11 +124,9 @@ public class StaffTest {
     @Test
     public void testSetPassword() {
         System.out.println("setPassword");
-        String password = "";
+        String password = "admin";
         Staff instance = new Staff();
         instance.setPassword(password);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
     }
     
 }

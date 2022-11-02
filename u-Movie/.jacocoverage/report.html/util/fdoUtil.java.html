@@ -18,7 +18,7 @@ import org.hibernate.SessionFactory;
  *
  * @author Farhan
  */
-<span class="nc" id="L21">public class fdoUtil {</span>
+<span class="fc" id="L21">public class fdoUtil {</span>
 
     private static final SessionFactory sessionFactory;
     
@@ -64,30 +64,30 @@ import org.hibernate.SessionFactory;
 	}
         
      public String inputValid( String title, String ytlink, String cast, String director, String production){
-<span class="nc" id="L67">     ArrayList&lt;String&gt; errList = new ArrayList&lt;&gt;();</span>
-<span class="nc" id="L68">     String alert = &quot;&quot;;</span>
+<span class="fc" id="L67">     ArrayList&lt;String&gt; errList = new ArrayList&lt;&gt;();</span>
+<span class="fc" id="L68">     String alert = &quot;&quot;;</span>
      
-<span class="nc bnc" id="L70" title="All 4 branches missed.">            if (!title.matches(&quot;[^&lt;&gt;{}]+&quot;) || title.isEmpty()){</span>
+<span class="pc bpc" id="L70" title="2 of 4 branches missed.">            if (!title.matches(&quot;[^&lt;&gt;{}]+&quot;) || title.isEmpty()){</span>
 <span class="nc" id="L71">            errList.add(&quot; Invalid Title Name &quot;);</span>
             }
-<span class="nc bnc" id="L73" title="All 4 branches missed.">            if (!ytlink.matches(&quot;https:\\/\\/www\\.youtube\\.com\\/watch\\?v\\=(.*?)&quot;) || ytlink.isEmpty()){</span>
+<span class="pc bpc" id="L73" title="2 of 4 branches missed.">            if (!ytlink.matches(&quot;https:\\/\\/www\\.youtube\\.com\\/watch\\?v\\=(.*?)&quot;) || ytlink.isEmpty()){</span>
 <span class="nc" id="L74">            errList.add(&quot; Invalid Youtube Link (Example: https://www.youtube.com/watch?v=XXXXXXXXXXXXXXX ) &quot;);</span>
             }
-<span class="nc bnc" id="L76" title="All 4 branches missed.">            if (!cast.matches(&quot;[^&lt;&gt;{}]+&quot;) || cast.isEmpty()){</span>
+<span class="pc bpc" id="L76" title="2 of 4 branches missed.">            if (!cast.matches(&quot;[^&lt;&gt;{}]+&quot;) || cast.isEmpty()){</span>
 <span class="nc" id="L77">            errList.add(&quot; Invalid Cast Name &quot;);</span>
             }
-<span class="nc bnc" id="L79" title="All 4 branches missed.">            if (!director.matches(&quot;[^&lt;&gt;{}]+&quot;) || director.isEmpty()){</span>
+<span class="pc bpc" id="L79" title="2 of 4 branches missed.">            if (!director.matches(&quot;[^&lt;&gt;{}]+&quot;) || director.isEmpty()){</span>
 <span class="nc" id="L80">            errList.add(&quot; Invalid Director Name &quot;);</span>
             }
-<span class="nc bnc" id="L82" title="All 4 branches missed.">            if (!production.matches(&quot;[^&lt;&gt;{}]+&quot;) || production.isEmpty()){</span>
+<span class="pc bpc" id="L82" title="2 of 4 branches missed.">            if (!production.matches(&quot;[^&lt;&gt;{}]+&quot;) || production.isEmpty()){</span>
 <span class="nc" id="L83">            errList.add(&quot; Invalid Production House Name &quot;);</span>
             }
-<span class="nc bnc" id="L85" title="All 2 branches missed.">           if (!errList.isEmpty()) {</span>
+<span class="pc bpc" id="L85" title="1 of 2 branches missed.">           if (!errList.isEmpty()) {</span>
 <span class="nc bnc" id="L86" title="All 2 branches missed.">                for (String msg : errList) {</span>
 <span class="nc" id="L87">                alert += (&quot; |F|&quot; +msg );</span>
 <span class="nc" id="L88">            }</span>
            }  
-<span class="nc" id="L90">           return alert;</span>
+<span class="fc" id="L90">           return alert;</span>
     }
 }
-</pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.5.201505241946</span></div></body></html>
+</pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.6.201602180812</span></div></body></html>

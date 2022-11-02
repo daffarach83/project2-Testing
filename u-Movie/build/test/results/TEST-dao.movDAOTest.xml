@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="5" hostname="DCZ" name="dao.movDAOTest" skipped="0" tests="5" time="11.394" timestamp="2022-11-02T10:07:55">
+<testsuite errors="0" failures="0" hostname="RIG-1" name="dao.movDAOTest" skipped="0" tests="5" time="1.522" timestamp="2022-11-02T14:42:21">
   <properties>
     <property name="libs.jsp-compiler.javadoc" value="" />
     <property name="netbeans.autoupdate.country" value="ID" />
-    <property name="javac.test.classpath" value="C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\antlr-2.7.7.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\c3p0-0.9.2.1.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-c3p0-4.3.1.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\mchange-commons-java-0.2.3.4.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\dom4j-1.6.1.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\ehcache-core-2.4.3.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-ehcache-4.3.1.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-core-4.3.1.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\jboss-logging-3.1.3.GA.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-commons-annotations-4.0.4.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-entitymanager-4.3.1.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\javassist-3.18.1-GA.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\jboss-transaction-api_1.2_spec-1.0.0.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\slf4j-api-1.6.1.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\slf4j-simple-1.6.1.jar:C:\Users\Hp\OneDrive\Dokumen\NetBeansProjects\u-Movie\build\web\WEB-INF\lib\BootsFaces-OSP-1.5.0.jar:C:\Program Files\NetBeans 8.2\ide\modules\ext\mysql-connector-java-5.1.23-bin.jar:build/web/WEB-INF/classes:C:\Program Files\NetBeans 8.2\platform\modules\ext\junit-4.12.jar:C:\Program Files\NetBeans 8.2\platform\modules\ext\hamcrest-core-1.3.jar" />
+    <property name="javac.test.classpath" value="C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\antlr-2.7.7.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\c3p0-0.9.2.1.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-c3p0-4.3.1.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\mchange-commons-java-0.2.3.4.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\dom4j-1.6.1.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\ehcache-core-2.4.3.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-ehcache-4.3.1.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-core-4.3.1.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\jboss-logging-3.1.3.GA.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-commons-annotations-4.0.4.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-entitymanager-4.3.1.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\javassist-3.18.1-GA.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\jboss-transaction-api_1.2_spec-1.0.0.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\slf4j-api-1.6.1.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\slf4j-simple-1.6.1.jar:C:\Users\Farhan\Documents\BootsFaces-OSP-1.5.0.jar:C:\Program Files\NetBeans 8.2\ide\modules\ext\mysql-connector-java-5.1.23-bin.jar:build/web/WEB-INF/classes:C:\Program Files\NetBeans 8.2\platform\modules\ext\junit-4.12.jar:C:\Program Files\NetBeans 8.2\platform\modules\ext\hamcrest-core-1.3.jar" />
     <property name="libs.jsf20.maven-pom" value="" />
     <property name="j2ee.copy.static.files.on.save" value="true" />
     <property name="libs.DataBindingME.src" value="C:\Program Files\NetBeans 8.2\mobility\sources\netbeans_databindingme-src.zip" />
@@ -13,12 +13,12 @@
     <property name="ant.core.lib" value="C:\Program Files\NetBeans 8.2\extide\ant\lib\ant.jar" />
     <property name="javadoc.windowtitle" value="" />
     <property name="libs.jsp-compilation.javadoc" value="" />
-    <property name="user.dir" value="C:\Users\Hp\OneDrive\Dokumen\NetBeansProjects\u-Movie" />
+    <property name="user.dir" value="C:\Users\Farhan\Documents\NetBeansProjects\project2-Testing\u-Movie" />
     <property name="libs.javaee-api-7.0.src" value="" />
-    <property name="java.vm.version" value="25.202-b08" />
+    <property name="java.vm.version" value="25.333-b02" />
     <property name="libs.DataBindingME.classpath" value="C:\Program Files\NetBeans 8.2\mobility\modules\ext\netbeans_databindingme.jar" />
     <property name="libs.j2me_common_ant.src" value="" />
-    <property name="file.reference.BootsFaces-OSP-1.5.0.jar" value="C:\Users\Hp\OneDrive\Dokumen\NetBeansProjects\u-Movie\build\web\WEB-INF\lib\BootsFaces-OSP-1.5.0.jar" />
+    <property name="file.reference.BootsFaces-OSP-1.5.0.jar" value="C:\Users\Farhan\Documents\BootsFaces-OSP-1.5.0.jar" />
     <property name="libs.MySQLDriver.classpath" value="C:\Program Files\NetBeans 8.2\ide\modules\ext\mysql-connector-java-5.1.23-bin.jar" />
     <property name="no.dependencies" value="false" />
     <property name="libs.eclipselinkmodelgen.src" value="" />
@@ -29,7 +29,7 @@
     <property name="libs.javaee-web-api-6.0.classpath" value="C:\Program Files\NetBeans 8.2\enterprise\modules\ext\javaee-web-api-6.0.jar" />
     <property name="libs.DataBindingME-PIM.maven-pom" value="" />
     <property name="libs.Java-EE-GlassFish-v3-Prelude.javadoc" value="C:\Program Files\NetBeans 8.2\enterprise\docs\javaee-doc-api.jar" />
-    <property name="jdk.home" value="C:\Program Files\Java\jdk1.8.0_202" />
+    <property name="jdk.home" value="C:\Program Files\Java\jdk1.8.0_333" />
     <property name="libs.javac-api.src" value="" />
     <property name="javadoc.noindex" value="false" />
     <property name="libs.jpa2-persistence.classpath" value="C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-jpa-2.1-api-1.0.0.Final.jar" />
@@ -44,7 +44,7 @@
     <property name="libs.hamcrest.classpath" value="C:\Program Files\NetBeans 8.2\platform\modules\ext\hamcrest-core-1.3.jar" />
     <property name="j2ee.server.instance" value="[C:\Program Files\glassfish-4.1.1\glassfish;C:\Program Files\glassfish-4.1.1\glassfish\domains\domain1]deployer:gfv3ee6wc:localhost:4848" />
     <property name="libs.javac-api.javadoc" value="" />
-    <property name="os.name" value="Windows 10" />
+    <property name="os.name" value="Windows 11" />
     <property name="libs.beans-binding.classpath" value="C:\Program Files\NetBeans 8.2\java\modules\ext\beansbinding-1.2.1.jar" />
     <property name="libs.javaee-endorsed-api-7.0.maven-pom" value="" />
     <property name="ap.proc.none.internal" value="" />
@@ -55,12 +55,12 @@
     <property name="libs.testng.src" value="" />
     <property name="libs.spring-webmvc3.0.src" value="" />
     <property name="libs.restapi.classpath" value="C:\Program Files\NetBeans 8.2\enterprise\modules\ext\jaxrs-2.0\javax.ws.rs-api-2.0.jar" />
-    <property name="runmain.jvmargs" value=" -javaagent:&quot;C:\Users\Hp\AppData\Roaming\NetBeans\8.2\modules\ext\jacocoagent.jar&quot;=includes=dao.*:pojo.*:util.*,destfile=&quot;C:\Users\Hp\OneDrive\Dokumen\NetBeansProjects\u-Movie\jacoco.exec-33720609926100&quot;" />
+    <property name="runmain.jvmargs" value=" -javaagent:&quot;C:\Users\Farhan\AppData\Roaming\NetBeans\8.2\modules\ext\jacocoagent.jar&quot;=includes=dao.*:pojo.*:util.*,destfile=&quot;C:\Users\Farhan\Documents\NetBeansProjects\project2-Testing\u-Movie\jacoco.exec-270528848115300&quot;" />
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
     <property name="libs.jaxb.maven-pom" value="" />
     <property name="os.arch" value="amd64" />
     <property name="libs.eclipselink.src" value="" />
-    <property name="user.name" value="Hp" />
+    <property name="user.name" value="Farhan" />
     <property name="j2ee.compile.on.save" value="true" />
     <property name="ant.file.type.u-Movie-impl" value="file" />
     <property name="libs.jsf12.javadoc" value="C:\Program Files\NetBeans 8.2\enterprise\docs\javaee-doc-api.jar" />
@@ -68,7 +68,7 @@
     <property name="libs.j2me_common_ant.maven-pom" value="" />
     <property name="libs.spring-webmvc3.0.maven-pom" value="" />
     <property name="libs.swing-layout.maven-pom" value="" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner dao.movDAOTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Hp\OneDrive\Dokumen\NetBeansProjects\u-Movie\build\test\results\TEST-dao.movDAOTest.xml crashfile=C:\Users\Hp\OneDrive\Dokumen\NetBeansProjects\u-Movie\build\junitvmwatcher5050565349690163378.properties propsfile=C:\Users\Hp\OneDrive\Dokumen\NetBeansProjects\u-Movie\build\junit9134597990077062420.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner dao.movDAOTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Farhan\Documents\NetBeansProjects\project2-Testing\u-Movie\build\test\results\TEST-dao.movDAOTest.xml crashfile=C:\Users\Farhan\Documents\NetBeansProjects\project2-Testing\u-Movie\build\junitvmwatcher6886678488026150385.properties propsfile=C:\Users\Farhan\Documents\NetBeansProjects\project2-Testing\u-Movie\build\junit899278279650046941.properties" />
     <property name="build.classes.dir" value="build/web/WEB-INF/classes" />
     <property name="netbeans.accept_license_class" value="org.netbeans.license.AcceptLicense" />
     <property name="ap.supported.internal" value="true" />
@@ -80,7 +80,7 @@
     <property name="j2ee.platform.wsimport.classpath" value="C:/Program Files/glassfish-4.1.1/glassfish/modules/webservices-osgi.jar:C:/Program Files/glassfish-4.1.1/glassfish/modules/endorsed/webservices-api-osgi.jar:C:/Program Files/glassfish-4.1.1/glassfish/modules/jaxb-osgi.jar:C:/Program Files/glassfish-4.1.1/glassfish/modules/endorsed/jaxb-api.jar" />
     <property name="user.country" value="ID" />
     <property name="javadoc.encoding" value="UTF-8" />
-    <property name="javac.classpath" value="C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\antlr-2.7.7.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\c3p0-0.9.2.1.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-c3p0-4.3.1.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\mchange-commons-java-0.2.3.4.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\dom4j-1.6.1.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\ehcache-core-2.4.3.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-ehcache-4.3.1.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-core-4.3.1.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\jboss-logging-3.1.3.GA.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-commons-annotations-4.0.4.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-entitymanager-4.3.1.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\javassist-3.18.1-GA.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\jboss-transaction-api_1.2_spec-1.0.0.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\slf4j-api-1.6.1.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\slf4j-simple-1.6.1.jar:C:\Users\Hp\OneDrive\Dokumen\NetBeansProjects\u-Movie\build\web\WEB-INF\lib\BootsFaces-OSP-1.5.0.jar:C:\Program Files\NetBeans 8.2\ide\modules\ext\mysql-connector-java-5.1.23-bin.jar" />
+    <property name="javac.classpath" value="C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\antlr-2.7.7.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\c3p0-0.9.2.1.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-c3p0-4.3.1.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\mchange-commons-java-0.2.3.4.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\dom4j-1.6.1.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\ehcache-core-2.4.3.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-ehcache-4.3.1.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-core-4.3.1.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\jboss-logging-3.1.3.GA.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-commons-annotations-4.0.4.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-entitymanager-4.3.1.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\javassist-3.18.1-GA.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\jboss-transaction-api_1.2_spec-1.0.0.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\slf4j-api-1.6.1.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\slf4j-simple-1.6.1.jar:C:\Users\Farhan\Documents\BootsFaces-OSP-1.5.0.jar:C:\Program Files\NetBeans 8.2\ide\modules\ext\mysql-connector-java-5.1.23-bin.jar" />
     <property name="libs.jsp-compilation-syscp.src" value="" />
     <property name="libs.JAVADB_DRIVER_LABEL.src" value="" />
     <property name="libs.spring-framework400.classpath" value="C:\Program Files\NetBeans 8.2\ide\modules\org-apache-commons-logging.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\cglib-2.2.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\spring-4\spring-aop-4.0.1.RELEASE.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\spring-4\spring-aspects-4.0.1.RELEASE.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\spring-4\spring-beans-4.0.1.RELEASE.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\spring-4\spring-build-src-4.0.1.RELEASE.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\spring-4\spring-context-4.0.1.RELEASE.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\spring-4\spring-context-support-4.0.1.RELEASE.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\spring-4\spring-core-4.0.1.RELEASE.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\spring-4\spring-expression-4.0.1.RELEASE.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\spring-4\spring-framework-bom-4.0.1.RELEASE.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\spring-4\spring-instrument-4.0.1.RELEASE.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\spring-4\spring-instrument-tomcat-4.0.1.RELEASE.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\spring-4\spring-jdbc-4.0.1.RELEASE.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\spring-4\spring-jms-4.0.1.RELEASE.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\spring-4\spring-messaging-4.0.1.RELEASE.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\spring-4\spring-orm-4.0.1.RELEASE.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\spring-4\spring-oxm-4.0.1.RELEASE.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\spring-4\spring-test-4.0.1.RELEASE.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\spring-4\spring-tx-4.0.1.RELEASE.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\spring-4\spring-web-4.0.1.RELEASE.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\spring-4\spring-webmvc-4.0.1.RELEASE.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\spring-4\spring-webmvc-portlet-4.0.1.RELEASE.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\spring-4\spring-websocket-4.0.1.RELEASE.jar" />
@@ -90,7 +90,8 @@
     <property name="build.compiler.emacs" value="true" />
     <property name="libs.javaee-web-api-6.0.src" value="" />
     <property name="libs.jsp-compilation-syscp.classpath" value="C:\Program Files\NetBeans 8.2\extide\ant\lib\ant.jar;C:\Program Files\NetBeans 8.2\enterprise\modules\ext\servlet3.1-jsp2.3-api.jar;C:\Program Files\NetBeans 8.2\enterprise\modules\ext\glassfish-jspparser-4.0.jar;C:\Program Files\NetBeans 8.2\enterprise\modules\ext\jstl-impl.jar;C:\Program Files\NetBeans 8.2\enterprise\modules\ext\jsf-2_2\javax.faces.jar" />
-    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_202\jre\lib\endorsed" />
+    <property name="nu.validator.checker.imageCandidateString.hasWidth" value="0" />
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_333\jre\lib\endorsed" />
     <property name="libs.Comet-GlassFish-v3.maven-pom" value="" />
     <property name="libs.groovy-all.src" value="" />
     <property name="netbeans.dynamic.classpath" value="C:\Program Files\NetBeans 8.2\platform\core\asm-all-5.0.1.jar;C:\Program Files\NetBeans 8.2\platform\core\core-base.jar;C:\Program Files\NetBeans 8.2\platform\core\core.jar;C:\Program Files\NetBeans 8.2\platform\core\org-netbeans-libs-asm.jar;C:\Program Files\NetBeans 8.2\platform\core\org-openide-filesystems-compat8.jar;C:\Program Files\NetBeans 8.2\platform\core\org-openide-filesystems.jar;C:\Program Files\NetBeans 8.2\platform\core\locale\core-base_ja.jar;C:\Program Files\NetBeans 8.2\platform\core\locale\core-base_pt_BR.jar;C:\Program Files\NetBeans 8.2\platform\core\locale\core-base_ru.jar;C:\Program Files\NetBeans 8.2\platform\core\locale\core-base_zh_CN.jar;C:\Program Files\NetBeans 8.2\platform\core\locale\core_ja.jar;C:\Program Files\NetBeans 8.2\platform\core\locale\core_pt_BR.jar;C:\Program Files\NetBeans 8.2\platform\core\locale\core_ru.jar;C:\Program Files\NetBeans 8.2\platform\core\locale\core_zh_CN.jar;C:\Program Files\NetBeans 8.2\platform\core\locale\org-netbeans-libs-asm_ja.jar;C:\Program Files\NetBeans 8.2\platform\core\locale\org-netbeans-libs-asm_pt_BR.jar;C:\Program Files\NetBeans 8.2\platform\core\locale\org-netbeans-libs-asm_ru.jar;C:\Program Files\NetBeans 8.2\platform\core\locale\org-netbeans-libs-asm_zh_CN.jar;C:\Program Files\NetBeans 8.2\platform\core\locale\org-openide-filesystems-compat8_ja.jar;C:\Program Files\NetBeans 8.2\platform\core\locale\org-openide-filesystems-compat8_pt_BR.jar;C:\Program Files\NetBeans 8.2\platform\core\locale\org-openide-filesystems-compat8_ru.jar;C:\Program Files\NetBeans 8.2\platform\core\locale\org-openide-filesystems-compat8_zh_CN.jar;C:\Program Files\NetBeans 8.2\platform\core\locale\org-openide-filesystems_ja.jar;C:\Program Files\NetBeans 8.2\platform\core\locale\org-openide-filesystems_pt_BR.jar;C:\Program Files\NetBeans 8.2\platform\core\locale\org-openide-filesystems_ru.jar;C:\Program Files\NetBeans 8.2\platform\core\locale\org-openide-filesystems_zh_CN.jar;C:\Program Files\NetBeans 8.2\nb\core\org-netbeans-upgrader.jar;C:\Program Files\NetBeans 8.2\nb\core\locale\core_nb.jar;C:\Program Files\NetBeans 8.2\nb\core\locale\core_nb_ja.jar;C:\Program Files\NetBeans 8.2\nb\core\locale\core_nb_pt_BR.jar;C:\Program Files\NetBeans 8.2\nb\core\locale\core_nb_ru.jar;C:\Program Files\NetBeans 8.2\nb\core\locale\core_nb_zh_CN.jar;C:\Program Files\NetBeans 8.2\nb\core\locale\org-netbeans-upgrader_ja.jar;C:\Program Files\NetBeans 8.2\nb\core\locale\org-netbeans-upgrader_pt_BR.jar;C:\Program Files\NetBeans 8.2\nb\core\locale\org-netbeans-upgrader_ru.jar;C:\Program Files\NetBeans 8.2\nb\core\locale\org-netbeans-upgrader_zh_CN.jar" />
@@ -111,7 +112,7 @@
     <property name="libs.Java-EE-GlassFish-v3-Prelude.maven-pom" value="" />
     <property name="libs.junit_4.maven-pom" value="" />
     <property name="resource.dir" value="setup" />
-    <property name="javac.test.processorpath" value="C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\antlr-2.7.7.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\c3p0-0.9.2.1.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-c3p0-4.3.1.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\mchange-commons-java-0.2.3.4.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\dom4j-1.6.1.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\ehcache-core-2.4.3.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-ehcache-4.3.1.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-core-4.3.1.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\jboss-logging-3.1.3.GA.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-commons-annotations-4.0.4.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-entitymanager-4.3.1.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\javassist-3.18.1-GA.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\jboss-transaction-api_1.2_spec-1.0.0.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\slf4j-api-1.6.1.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\slf4j-simple-1.6.1.jar:C:\Users\Hp\OneDrive\Dokumen\NetBeansProjects\u-Movie\build\web\WEB-INF\lib\BootsFaces-OSP-1.5.0.jar:C:\Program Files\NetBeans 8.2\ide\modules\ext\mysql-connector-java-5.1.23-bin.jar:build/web/WEB-INF/classes:C:\Program Files\NetBeans 8.2\platform\modules\ext\junit-4.12.jar:C:\Program Files\NetBeans 8.2\platform\modules\ext\hamcrest-core-1.3.jar" />
+    <property name="javac.test.processorpath" value="C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\antlr-2.7.7.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\c3p0-0.9.2.1.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-c3p0-4.3.1.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\mchange-commons-java-0.2.3.4.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\dom4j-1.6.1.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\ehcache-core-2.4.3.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-ehcache-4.3.1.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-core-4.3.1.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\jboss-logging-3.1.3.GA.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-commons-annotations-4.0.4.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-entitymanager-4.3.1.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\javassist-3.18.1-GA.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\jboss-transaction-api_1.2_spec-1.0.0.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\slf4j-api-1.6.1.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\slf4j-simple-1.6.1.jar:C:\Users\Farhan\Documents\BootsFaces-OSP-1.5.0.jar:C:\Program Files\NetBeans 8.2\ide\modules\ext\mysql-connector-java-5.1.23-bin.jar:build/web/WEB-INF/classes:C:\Program Files\NetBeans 8.2\platform\modules\ext\junit-4.12.jar:C:\Program Files\NetBeans 8.2\platform\modules\ext\hamcrest-core-1.3.jar" />
     <property name="netbeans.buildnumber" value="201609300101" />
     <property name="libs.JWSAntTasks.javadoc" value="" />
     <property name="build.generated.sources.dir" value="build/generated-sources" />
@@ -123,6 +124,7 @@
     <property name="libs.jaxb.javadoc" value="C:\Program Files\NetBeans 8.2\ide\docs\jaxb-api-doc.zip" />
     <property name="libs.struts.classpath" value="C:\Program Files\NetBeans 8.2\enterprise\modules\ext\struts\antlr-2.7.2.jar;C:\Program Files\NetBeans 8.2\enterprise\modules\ext\struts\bsf-2.3.0.jar;C:\Program Files\NetBeans 8.2\enterprise\modules\ext\struts\commons-beanutils-1.8.0.jar;C:\Program Files\NetBeans 8.2\enterprise\modules\ext\struts\commons-chain-1.2.jar;C:\Program Files\NetBeans 8.2\enterprise\modules\ext\struts\commons-digester-1.8.jar;C:\Program Files\NetBeans 8.2\enterprise\modules\ext\struts\commons-fileupload-1.1.1.jar;C:\Program Files\NetBeans 8.2\enterprise\modules\ext\struts\commons-io-1.1.jar;C:\Program Files\NetBeans 8.2\enterprise\modules\ext\struts\commons-logging-1.0.4.jar;C:\Program Files\NetBeans 8.2\enterprise\modules\ext\struts\commons-validator-1.3.1.jar;C:\Program Files\NetBeans 8.2\enterprise\modules\ext\struts\jstl-1.0.2.jar;C:\Program Files\NetBeans 8.2\enterprise\modules\ext\struts\oro-2.0.8.jar;C:\Program Files\NetBeans 8.2\enterprise\modules\ext\struts\standard-1.0.6.jar;C:\Program Files\NetBeans 8.2\enterprise\modules\ext\struts\struts-core-1.3.10.jar;C:\Program Files\NetBeans 8.2\enterprise\modules\ext\struts\struts-el-1.3.10.jar;C:\Program Files\NetBeans 8.2\enterprise\modules\ext\struts\struts-extras-1.3.10.jar;C:\Program Files\NetBeans 8.2\enterprise\modules\ext\struts\struts-faces-1.3.10.jar;C:\Program Files\NetBeans 8.2\enterprise\modules\ext\struts\struts-mailreader-dao-1.3.10.jar;C:\Program Files\NetBeans 8.2\enterprise\modules\ext\struts\struts-scripting-1.3.10.jar;C:\Program Files\NetBeans 8.2\enterprise\modules\ext\struts\struts-taglib-1.3.10.jar;C:\Program Files\NetBeans 8.2\enterprise\modules\ext\struts\struts-tiles-1.3.10.jar" />
     <property name="application.args.param" value="" />
+    <property name="org.openide.awt.SwingBrowserImpl.do-not-block-awt" value="false" />
     <property name="ant.home" value="C:\Program Files\NetBeans 8.2\extide\ant" />
     <property name="libs.junit_4.src" value="C:\Program Files\NetBeans 8.2\platform\docs\junit-4.12-sources.jar" />
     <property name="libs.testng.classpath" value="C:\Program Files\NetBeans 8.2\platform\modules\ext\testng-6.8.1-dist.jar" />
@@ -130,7 +132,7 @@
     <property name="webinf.dir" value="web/WEB-INF" />
     <property name="libs.absolutelayout.maven-pom" value="" />
     <property name="ant.java.version" value="1.8" />
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Python310\Scripts\;C:\Python310\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Git\cmd;C:\Program Files\Git\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\Hp\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk1.8.0_202\bin;C:\Users\Hp\AppData\Local\GitHubDesktop\bin;C:\Users\Hp\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Git\bin\;C:\Program Files\Git\cmd\;C:\Users\Hp\AppData\Roaming\npm;." />
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_333\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\VMWare\bin\;C:\Python310\Scripts\;C:\Python310\;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Users\Farhan\AppData\Local\Microsoft\WindowsApps;C:\Users\Farhan\AppData\Local\Programs\Microsoft VS Code\bin;C:\adb;C:\Program Files (x86)\Certbot\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\GitHub CLI\;C:\Program Files\WireGuard\;C:\Program Files\Go\bin;C:\Users\Farhan\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk-18.0.1.1\bin;C:\Users\Farhan\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Farhan\AppData\Roaming\npm;C:\Program Files\Go\bin;;." />
     <property name="javadoc.author" value="false" />
     <property name="libs.metro.maven-pom" value="" />
     <property name="libs.EclipseLink-GlassFish-v3.src" value="" />
@@ -138,7 +140,7 @@
     <property name="libs.spring-framework400.src" value="" />
     <property name="libs.PostgreSQLDriver.src" value="" />
     <property name="sun.arch.data.model" value="64" />
-    <property name="basedir" value="C:\Users\Hp\OneDrive\Dokumen\NetBeansProjects\u-Movie" />
+    <property name="basedir" value="C:\Users\Farhan\Documents\NetBeansProjects\project2-Testing\u-Movie" />
     <property name="libs.jpa20-persistence.maven-pom" value="" />
     <property name="jar.compress" value="false" />
     <property name="libs.javaee-web-api-7.0.classpath" value="C:\Program Files\NetBeans 8.2\enterprise\modules\ext\javaee-web-api-7.0.jar" />
@@ -152,6 +154,7 @@
     <property name="apple.awt.graphics.UseQuartz" value="true" />
     <property name="user.language" value="en" />
     <property name="j2ee.platform.classpath" value="C:/Program Files/glassfish-4.1.1/glassfish/modules/endorsed/javax.annotation-api.jar:C:/Program Files/glassfish-4.1.1/glassfish/modules/endorsed/jaxb-api.jar:C:/Program Files/glassfish-4.1.1/glassfish/modules/endorsed/webservices-api-osgi.jar:C:/Program Files/glassfish-4.1.1/glassfish/modules/bean-validator.jar:C:/Program Files/glassfish-4.1.1/glassfish/modules/cdi-api.jar:C:/Program Files/glassfish-4.1.1/glassfish/modules/javax.batch-api.jar:C:/Program Files/glassfish-4.1.1/glassfish/modules/javax.ejb-api.jar:C:/Program Files/glassfish-4.1.1/glassfish/modules/javax.el.jar:C:/Program Files/glassfish-4.1.1/glassfish/modules/javax.enterprise.concurrent-api.jar:C:/Program Files/glassfish-4.1.1/glassfish/modules/javax.enterprise.concurrent.jar:C:/Program Files/glassfish-4.1.1/glassfish/modules/javax.enterprise.deploy-api.jar:C:/Program Files/glassfish-4.1.1/glassfish/modules/javax.faces.jar:C:/Program Files/glassfish-4.1.1/glassfish/modules/javax.inject.jar:C:/Program Files/glassfish-4.1.1/glassfish/modules/javax.interceptor-api.jar:C:/Program Files/glassfish-4.1.1/glassfish/modules/javax.jms-api.jar:C:/Program Files/glassfish-4.1.1/glassfish/modules/javax.json.jar:C:/Program Files/glassfish-4.1.1/glassfish/modules/javax.mail.jar:C:/Program Files/glassfish-4.1.1/glassfish/modules/javax.management.j2ee-api.jar:C:/Program Files/glassfish-4.1.1/glassfish/modules/javax.persistence.jar:C:/Program Files/glassfish-4.1.1/glassfish/modules/javax.resource-api.jar:C:/Program Files/glassfish-4.1.1/glassfish/modules/javax.security.auth.message-api.jar:C:/Program Files/glassfish-4.1.1/glassfish/modules/javax.security.jacc-api.jar:C:/Program Files/glassfish-4.1.1/glassfish/modules/javax.servlet-api.jar:C:/Program Files/glassfish-4.1.1/glassfish/modules/javax.servlet.jsp-api.jar:C:/Program Files/glassfish-4.1.1/glassfish/modules/javax.servlet.jsp.jar:C:/Program Files/glassfish-4.1.1/glassfish/modules/javax.servlet.jsp.jstl-api.jar:C:/Program Files/glassfish-4.1.1/glassfish/modules/javax.servlet.jsp.jstl.jar:C:/Program Files/glassfish-4.1.1/glassfish/modules/javax.transaction-api.jar:C:/Program Files/glassfish-4.1.1/glassfish/modules/javax.websocket-api.jar:C:/Program Files/glassfish-4.1.1/glassfish/modules/javax.ws.rs-api.jar:C:/Program Files/glassfish-4.1.1/glassfish/modules/javax.xml.registry-api.jar:C:/Program Files/glassfish-4.1.1/glassfish/modules/javax.xml.rpc-api.jar:C:/Program Files/glassfish-4.1.1/glassfish/modules/jaxb-osgi.jar:C:/Program Files/glassfish-4.1.1/glassfish/modules/webservices-osgi.jar:C:/Program Files/glassfish-4.1.1/glassfish/modules/weld-osgi-bundle.jar:C:/Program Files/glassfish-4.1.1/mq/lib/jaxm-api.jar" />
+    <property name="libs.Hbr.javadoc" value="" />
     <property name="testng.mode" value="testng" />
     <property name="libs.JAXB-ENDORSED.maven-pom" value="" />
     <property name="libs.eclipselink.maven-pom" value="" />
@@ -160,15 +163,16 @@
     <property name="test.binaryincludes" value="&lt;nothing&gt;" />
     <property name="libs.primefaces.javadoc" value="" />
     <property name="libs.spring-framework300.maven-pom" value="" />
-    <property name="run.test.classpath" value="C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\antlr-2.7.7.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\c3p0-0.9.2.1.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-c3p0-4.3.1.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\mchange-commons-java-0.2.3.4.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\dom4j-1.6.1.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\ehcache-core-2.4.3.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-ehcache-4.3.1.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-core-4.3.1.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\jboss-logging-3.1.3.GA.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-commons-annotations-4.0.4.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-entitymanager-4.3.1.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\javassist-3.18.1-GA.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\jboss-transaction-api_1.2_spec-1.0.0.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\slf4j-api-1.6.1.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\slf4j-simple-1.6.1.jar:C:\Users\Hp\OneDrive\Dokumen\NetBeansProjects\u-Movie\build\web\WEB-INF\lib\BootsFaces-OSP-1.5.0.jar:C:\Program Files\NetBeans 8.2\ide\modules\ext\mysql-connector-java-5.1.23-bin.jar:build/web/WEB-INF/classes:C:\Program Files\NetBeans 8.2\platform\modules\ext\junit-4.12.jar:C:\Program Files\NetBeans 8.2\platform\modules\ext\hamcrest-core-1.3.jar:build/test/classes" />
+    <property name="run.test.classpath" value="C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\antlr-2.7.7.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\c3p0-0.9.2.1.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-c3p0-4.3.1.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\mchange-commons-java-0.2.3.4.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\dom4j-1.6.1.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\ehcache-core-2.4.3.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-ehcache-4.3.1.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-core-4.3.1.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\jboss-logging-3.1.3.GA.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-commons-annotations-4.0.4.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-entitymanager-4.3.1.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\javassist-3.18.1-GA.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\jboss-transaction-api_1.2_spec-1.0.0.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\slf4j-api-1.6.1.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\slf4j-simple-1.6.1.jar:C:\Users\Farhan\Documents\BootsFaces-OSP-1.5.0.jar:C:\Program Files\NetBeans 8.2\ide\modules\ext\mysql-connector-java-5.1.23-bin.jar:build/web/WEB-INF/classes:C:\Program Files\NetBeans 8.2\platform\modules\ext\junit-4.12.jar:C:\Program Files\NetBeans 8.2\platform\modules\ext\hamcrest-core-1.3.jar:build/test/classes" />
     <property name="ant.project.invoked-targets" value="test" />
     <property name="test.binaryexcludes" value="" />
     <property name="libs.swing-layout.javadoc" value="C:\Program Files\NetBeans 8.2\platform\docs\swing-layout-1.0.4-doc.zip" />
     <property name="sun.java2d.dpiaware" value="true" />
+    <property name="libs.Hbr.maven-pom" value="" />
     <property name="libs.hibernate4-persistence.maven-pom" value="" />
     <property name="jspc.schemas" value="/resources/schemas/" />
     <property name="libs.DataBindingME-SVG.classpath" value="C:\Program Files\NetBeans 8.2\mobility\modules\ext\netbeans_databindingme_svg.jar" />
-    <property name="https.nonProxyHosts" value="localhost|127.0.0.1|DCZ" />
+    <property name="https.nonProxyHosts" value="localhost|127.0.0.1|RIG-1" />
     <property name="libs.PostgreSQLDriver.maven-pom" value="" />
     <property name="java.class.version" value="52.0" />
     <property name="libs.JAVADB_DRIVER_LABEL.classpath" value="C:\Program Files\glassfish-4.1.1\javadb\lib\derby.jar;C:\Program Files\glassfish-4.1.1\javadb\lib\derbyclient.jar;C:\Program Files\glassfish-4.1.1\javadb\lib\derbynet.jar" />
@@ -176,7 +180,7 @@
     <property name="libs.javaee-endorsed-api-6.0.src" value="" />
     <property name="libs.eclipselink.javadoc" value="C:\Program Files\NetBeans 8.2\java\modules\ext\docs\javax.persistence-2.1.0-doc.zip" />
     <property name="libs.jsp-compilation.maven-pom" value="" />
-    <property name="user.properties.file" value="C:\Users\Hp\AppData\Roaming\NetBeans\8.2\build.properties" />
+    <property name="user.properties.file" value="C:\Users\Farhan\AppData\Roaming\NetBeans\8.2\build.properties" />
     <property name="build.web.dir" value="build/web" />
     <property name="libs.javac-api.maven-pom" value="" />
     <property name="file.encoding.pkg" value="sun.io" />
@@ -188,16 +192,16 @@
     <property name="libs.spring-framework300.src" value="" />
     <property name="auxiliary.org-netbeans-modules-projectapi.jsf_2e_language" value="Facelets" />
     <property name="libs.jstl.src" value="" />
-    <property name="empty.dir" value="C:\Users\Hp\OneDrive\Dokumen\NetBeansProjects\u-Movie\build\empty" />
+    <property name="empty.dir" value="C:\Users\Farhan\Documents\NetBeansProjects\project2-Testing\u-Movie\build\empty" />
     <property name="display.browser" value="true" />
     <property name="version-output" value="java version &quot;1.8" />
     <property name="test.binarytestincludes" value="" />
     <property name="libs.hibernate4-persistencemodelgen.src" value="" />
     <property name="javadoc.preview" value="true" />
     <property name="libs.jpa20-persistence.javadoc" value="C:\Program Files\NetBeans 8.2\java\modules\ext\docs\javax.persistence-2.1.0-doc.zip" />
-    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_202\jre" />
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_333\jre" />
     <property name="libs.jsp-compilation.src" value="" />
-    <property name="debug.test.classpath" value="C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\antlr-2.7.7.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\c3p0-0.9.2.1.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-c3p0-4.3.1.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\mchange-commons-java-0.2.3.4.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\dom4j-1.6.1.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\ehcache-core-2.4.3.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-ehcache-4.3.1.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-core-4.3.1.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\jboss-logging-3.1.3.GA.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-commons-annotations-4.0.4.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-entitymanager-4.3.1.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\javassist-3.18.1-GA.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\jboss-transaction-api_1.2_spec-1.0.0.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\slf4j-api-1.6.1.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\slf4j-simple-1.6.1.jar:C:\Users\Hp\OneDrive\Dokumen\NetBeansProjects\u-Movie\build\web\WEB-INF\lib\BootsFaces-OSP-1.5.0.jar:C:\Program Files\NetBeans 8.2\ide\modules\ext\mysql-connector-java-5.1.23-bin.jar:build/web/WEB-INF/classes:C:\Program Files\NetBeans 8.2\platform\modules\ext\junit-4.12.jar:C:\Program Files\NetBeans 8.2\platform\modules\ext\hamcrest-core-1.3.jar:build/test/classes" />
+    <property name="debug.test.classpath" value="C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\antlr-2.7.7.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\c3p0-0.9.2.1.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-c3p0-4.3.1.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\mchange-commons-java-0.2.3.4.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\dom4j-1.6.1.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\ehcache-core-2.4.3.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-ehcache-4.3.1.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-core-4.3.1.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\jboss-logging-3.1.3.GA.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-commons-annotations-4.0.4.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-entitymanager-4.3.1.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\javassist-3.18.1-GA.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\jboss-transaction-api_1.2_spec-1.0.0.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\slf4j-api-1.6.1.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\slf4j-simple-1.6.1.jar:C:\Users\Farhan\Documents\BootsFaces-OSP-1.5.0.jar:C:\Program Files\NetBeans 8.2\ide\modules\ext\mysql-connector-java-5.1.23-bin.jar:build/web/WEB-INF/classes:C:\Program Files\NetBeans 8.2\platform\modules\ext\junit-4.12.jar:C:\Program Files\NetBeans 8.2\platform\modules\ext\hamcrest-core-1.3.jar:build/test/classes" />
     <property name="libs.javaee-endorsed-api-6.0.classpath" value="C:\Program Files\NetBeans 8.2\enterprise\modules\ext\javaee6-endorsed\javax.annotation.jar;C:\Program Files\NetBeans 8.2\enterprise\modules\ext\javaee6-endorsed\jaxb-api-osgi.jar;C:\Program Files\NetBeans 8.2\enterprise\modules\ext\javaee6-endorsed\webservices-api-osgi.jar" />
     <property name="libs.javaee-api-6.0.src" value="" />
     <property name="netbeans.importclass" value="org.netbeans.upgrade.AutoUpgrade" />
@@ -209,7 +213,7 @@
     <property name="libs.MySQLDriver.maven-pom" value="" />
     <property name="j2ee.platform.wsgen.classpath" value="C:/Program Files/glassfish-4.1.1/glassfish/modules/webservices-osgi.jar:C:/Program Files/glassfish-4.1.1/glassfish/modules/endorsed/webservices-api-osgi.jar:C:/Program Files/glassfish-4.1.1/glassfish/modules/jaxb-osgi.jar:C:/Program Files/glassfish-4.1.1/glassfish/modules/endorsed/jaxb-api.jar" />
     <property name="libs.hibernate4-persistence.javadoc" value="C:\Program Files\NetBeans 8.2\java\modules\ext\docs\javax.persistence-2.1.0-doc.zip" />
-    <property name="http.nonProxyHosts" value="localhost|127.0.0.1|DCZ" />
+    <property name="http.nonProxyHosts" value="localhost|127.0.0.1|RIG-1" />
     <property name="libs.junit_4.javadoc" value="C:\Program Files\NetBeans 8.2\platform\docs\junit-4.12-javadoc.jar" />
     <property name="libs.EclipseLink-GlassFish-v3.maven-pom" value="" />
     <property name="libs.javaee-web-api-6.0.maven-pom" value="" />
@@ -232,10 +236,10 @@
     <property name="sun.java2d.noddraw" value="true" />
     <property name="libs.jsp-compiler.classpath" value="C:\Program Files\NetBeans 8.2\enterprise\ant\extra\jspcompile.jar" />
     <property name="dist.ear.war" value="dist/u-Movie.war" />
-    <property name="javac.processorpath" value="C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\antlr-2.7.7.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\c3p0-0.9.2.1.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-c3p0-4.3.1.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\mchange-commons-java-0.2.3.4.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\dom4j-1.6.1.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\ehcache-core-2.4.3.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-ehcache-4.3.1.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-core-4.3.1.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\jboss-logging-3.1.3.GA.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-commons-annotations-4.0.4.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-entitymanager-4.3.1.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\javassist-3.18.1-GA.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\jboss-transaction-api_1.2_spec-1.0.0.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\slf4j-api-1.6.1.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\slf4j-simple-1.6.1.jar:C:\Users\Hp\OneDrive\Dokumen\NetBeansProjects\u-Movie\build\web\WEB-INF\lib\BootsFaces-OSP-1.5.0.jar:C:\Program Files\NetBeans 8.2\ide\modules\ext\mysql-connector-java-5.1.23-bin.jar" />
+    <property name="javac.processorpath" value="C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\antlr-2.7.7.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\c3p0-0.9.2.1.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-c3p0-4.3.1.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\mchange-commons-java-0.2.3.4.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\dom4j-1.6.1.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\ehcache-core-2.4.3.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-ehcache-4.3.1.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-core-4.3.1.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\jboss-logging-3.1.3.GA.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-commons-annotations-4.0.4.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-entitymanager-4.3.1.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\javassist-3.18.1-GA.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\jboss-transaction-api_1.2_spec-1.0.0.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\slf4j-api-1.6.1.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\slf4j-simple-1.6.1.jar:C:\Users\Farhan\Documents\BootsFaces-OSP-1.5.0.jar:C:\Program Files\NetBeans 8.2\ide\modules\ext\mysql-connector-java-5.1.23-bin.jar" />
     <property name="libs.hamcrest.maven-pom" value="" />
     <property name="javac.compilerargs" value="" />
-    <property name="ant.file" value="C:\Users\Hp\OneDrive\Dokumen\NetBeansProjects\u-Movie\build.xml" />
+    <property name="ant.file" value="C:\Users\Farhan\Documents\NetBeansProjects\project2-Testing\u-Movie\build.xml" />
     <property name="libs.beans-binding.maven-pom" value="" />
     <property name="libs.hibernate4-support.javadoc" value="C:\Program Files\NetBeans 8.2\java\modules\ext\docs\javax.persistence-2.1.0-doc.zip" />
     <property name="libs.jsf12.classpath" value="C:\Program Files\NetBeans 8.2\enterprise\modules\ext\jsf-1_2\commons-beanutils.jar;C:\Program Files\NetBeans 8.2\enterprise\modules\ext\jsf-1_2\commons-collections.jar;C:\Program Files\NetBeans 8.2\enterprise\modules\ext\jsf-1_2\commons-digester.jar;C:\Program Files\NetBeans 8.2\enterprise\modules\ext\jsf-1_2\commons-logging.jar;C:\Program Files\NetBeans 8.2\enterprise\modules\ext\jsf-1_2\jsf-api.jar;C:\Program Files\NetBeans 8.2\enterprise\modules\ext\jsf-1_2\jsf-impl.jar" />
@@ -250,9 +254,9 @@
     <property name="do.display.browser.debug.old" value="true" />
     <property name="org.openide.major.version" value="IDE/1" />
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
-    <property name="netbeans.user" value="C:\Users\Hp\AppData\Roaming\NetBeans\8.2" />
+    <property name="netbeans.user" value="C:\Users\Farhan\AppData\Roaming\NetBeans\8.2" />
     <property name="javadoc.additionalparam" value="" />
-    <property name="java.io.tmpdir" value="C:\Users\Hp\AppData\Local\Temp\" />
+    <property name="java.io.tmpdir" value="C:\Users\Farhan\AppData\Local\Temp\" />
     <property name="java.vendor.url" value="http://java.oracle.com/" />
     <property name="endorsed.classpath.cmd.line.arg" value="-Xbootclasspath/p:&apos;C:\Program Files\NetBeans 8.2\enterprise\modules\ext\javaee7-endorsed\javax.annotation-api.jar;C:\Program Files\NetBeans 8.2\enterprise\modules\ext\javaee7-endorsed\javax.xml.soap-api.jar;C:\Program Files\NetBeans 8.2\enterprise\modules\ext\javaee7-endorsed\jaxb-api-osgi.jar;C:\Program Files\NetBeans 8.2\enterprise\modules\ext\javaee7-endorsed\jaxws-api.jar;C:\Program Files\NetBeans 8.2\enterprise\modules\ext\javaee7-endorsed\jsr181-api.jar&apos;" />
     <property name="jna.loaded" value="true" />
@@ -260,12 +264,12 @@
     <property name="j2ee.platform.wsit.classpath" value="" />
     <property name="compile.jsps" value="false" />
     <property name="libs.jsp-compiler.src" value="" />
-    <property name="deploy.ant.properties.file" value="C:\Users\Hp\AppData\Roaming\NetBeans\8.2\config\GlassFishEE6\Properties\gfv31903434079.properties" />
+    <property name="deploy.ant.properties.file" value="C:\Users\Farhan\AppData\Roaming\NetBeans\8.2\config\GlassFishEE6\Properties\gfv3-1395620983.properties" />
     <property name="j2ee.platform.wscompile.classpath" value="C:/Program Files/glassfish-4.1.1/glassfish/modules/webservices-osgi.jar" />
-    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\bin" />
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_333\jre\bin" />
     <property name="have.sources" value="true" />
     <property name="libs.hamcrest.javadoc" value="" />
-    <property name="debug.classpath" value="build/web/WEB-INF/classes:C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\antlr-2.7.7.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\c3p0-0.9.2.1.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-c3p0-4.3.1.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\mchange-commons-java-0.2.3.4.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\dom4j-1.6.1.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\ehcache-core-2.4.3.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-ehcache-4.3.1.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-core-4.3.1.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\jboss-logging-3.1.3.GA.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-commons-annotations-4.0.4.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-entitymanager-4.3.1.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\javassist-3.18.1-GA.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\jboss-transaction-api_1.2_spec-1.0.0.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\slf4j-api-1.6.1.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\slf4j-simple-1.6.1.jar:C:\Users\Hp\OneDrive\Dokumen\NetBeansProjects\u-Movie\build\web\WEB-INF\lib\BootsFaces-OSP-1.5.0.jar:C:\Program Files\NetBeans 8.2\ide\modules\ext\mysql-connector-java-5.1.23-bin.jar" />
+    <property name="debug.classpath" value="build/web/WEB-INF/classes:C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\antlr-2.7.7.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\c3p0-0.9.2.1.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-c3p0-4.3.1.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\mchange-commons-java-0.2.3.4.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\dom4j-1.6.1.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\ehcache-core-2.4.3.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-ehcache-4.3.1.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-core-4.3.1.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\jboss-logging-3.1.3.GA.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-commons-annotations-4.0.4.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-entitymanager-4.3.1.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\javassist-3.18.1-GA.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\jboss-transaction-api_1.2_spec-1.0.0.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\slf4j-api-1.6.1.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\slf4j-simple-1.6.1.jar:C:\Users\Farhan\Documents\BootsFaces-OSP-1.5.0.jar:C:\Program Files\NetBeans 8.2\ide\modules\ext\mysql-connector-java-5.1.23-bin.jar" />
     <property name="war.name" value="u-Movie.war" />
     <property name="javadoc.private" value="false" />
     <property name="test.src.dir" value="test" />
@@ -276,17 +280,17 @@
     <property name="libs.spring-framework400.maven-pom" value="" />
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
     <property name="ant.project.name" value="u-Movie" />
-    <property name="netbeans.hash.code" value="unique=NB_CND_EXTIDE_GFMOD_GROOVY_JAVA_JC_MOB_PHP_WEBCOMMON_WEBEE0532f82d9-df0b-4614-baa0-5040acbcb0ab_fc7d2b01-35fb-4b42-bee9-057cc0cb7797" />
-    <property name="netbeans.default_userdir_root" value="C:\Users\Hp\AppData\Roaming\NetBeans" />
+    <property name="netbeans.hash.code" value="unique=NB_CND_EXTIDE_GFMOD_GROOVY_JAVA_JC_MOB_PHP_WEBCOMMON_WEBEE0f078f206-5add-4531-bc09-4ef78b10a682_303454ae-2883-4aff-b2fa-18659e17deec" />
+    <property name="netbeans.default_userdir_root" value="C:\Users\Farhan\AppData\Roaming\NetBeans" />
     <property name="libs.jsp-compilation-syscp.maven-pom" value="" />
     <property name="sun.cpu.isalist" value="amd64" />
     <property name="libs.spring-framework400.javadoc" value="" />
     <property name="libs.CopyLibs.javadoc" value="" />
-    <property name="j2ee.server.domain" value="C:/Users/Hp/AppData/Roaming/NetBeans/8.2/config/GF_4.1.1/domain1" />
+    <property name="j2ee.server.domain" value="C:/Users/Farhan/AppData/Roaming/NetBeans/8.2/config/GF_4.1.1/domain1" />
     <property name="org.openide.specification.version" value="6.2" />
     <property name="j2ee.server.home" value="C:/Program Files/glassfish-4.1.1/glassfish" />
     <property name="libs.DataBindingME-PIM.classpath" value="C:\Program Files\NetBeans 8.2\mobility\modules\ext\netbeans_databindingme_pim.jar" />
-    <property name="user.home" value="C:\Users\Hp" />
+    <property name="user.home" value="C:\Users\Farhan" />
     <property name="annotation.processing.processors.list" value="" />
     <property name="libs.primefaces.maven-pom" value="" />
     <property name="debug-args-line" value="-Xdebug" />
@@ -296,11 +300,12 @@
     <property name="libs.absolutelayout.javadoc" value="" />
     <property name="libs.spring-framework300.javadoc" value="" />
     <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="libs.Hbr.src" value="" />
     <property name="ant.file.type.u-Movie" value="file" />
     <property name="no.dist.ear.dir" value="true" />
     <property name="java.specification.vendor" value="Oracle Corporation" />
     <property name="libs.javac-api.classpath" value="C:\Program Files\NetBeans 8.2\java\modules\ext\nb-javac-api.jar" />
-    <property name="java.version" value="1.8.0_202" />
+    <property name="java.version" value="1.8.0_333" />
     <property name="javadoc.version" value="false" />
     <property name="run.jvmargs.ide" value="" />
     <property name="libs.MySQLDriver.javadoc" value="" />
@@ -319,31 +324,31 @@
     <property name="jdk.launcher.addexports.5" value="java.management/sun.management=ALL-UNNAMED" />
     <property name="jdk.launcher.addexports.4" value="java.desktop/com.sun.java.swing.plaf.windows=ALL-UNNAMED" />
     <property name="jdk.launcher.addexports.3" value="java.desktop/sun.awt.im=ALL-UNNAMED" />
-    <property name="jdk.launcher.addexports.2" value="java.desktop/java.awt.peer=ALL-UNNAMED" />
     <property name="libs.jaxb.classpath" value="C:\Program Files\NetBeans 8.2\ide\modules\ext\jaxb\jaxb-impl.jar;C:\Program Files\NetBeans 8.2\ide\modules\ext\jaxb\jaxb-xjc.jar;C:\Program Files\NetBeans 8.2\ide\modules\ext\jaxb\jaxb1-impl.jar;C:\Program Files\NetBeans 8.2\ide\modules\ext\jaxb\activation.jar;C:\Program Files\NetBeans 8.2\ide\modules\ext\jaxb\api\jaxb-api.jar;C:\Program Files\NetBeans 8.2\ide\modules\ext\jaxb\api\jsr173_1.0_api.jar" />
+    <property name="jdk.launcher.addexports.2" value="java.desktop/java.awt.peer=ALL-UNNAMED" />
     <property name="jdk.launcher.addexports.1" value="java.base/jdk.internal.jrtfs=ALL-UNNAMED" />
     <property name="jdk.launcher.addexports.0" value="java.desktop/sun.awt=ALL-UNNAMED" />
-    <property name="libs.j2me_common_ant.classpath" value="C:\Program Files\NetBeans 8.2\mobility\modules\org-netbeans-modules-j2me-common-ant.jar;C:\Program Files\NetBeans 8.2\java\modules\org-netbeans-modules-classfile.jar" />
     <property name="dist.javadoc.dir" value="dist/javadoc" />
+    <property name="libs.j2me_common_ant.classpath" value="C:\Program Files\NetBeans 8.2\mobility\modules\org-netbeans-modules-j2me-common-ant.jar;C:\Program Files\NetBeans 8.2\java\modules\org-netbeans-modules-classfile.jar" />
     <property name="libs.spring-webmvc3.0.classpath" value="C:\Program Files\NetBeans 8.2\java\modules\ext\spring-3.0\spring-webmvc-3.2.7.RELEASE.jar" />
     <property name="libs.swing-layout.classpath" value="C:\Program Files\NetBeans 8.2\platform\modules\ext\swing-layout-1.0.4.jar" />
-    <property name="libs.javaee-web-api-7.0.maven-pom" value="" />
     <property name="jspc.dtds" value="/resources/dtds/" />
+    <property name="libs.javaee-web-api-7.0.maven-pom" value="" />
     <property name="libs.restlib.src" value="" />
-    <property name="javac.source" value="1.8" />
     <property name="build.generated.dir" value="build/generated" />
+    <property name="javac.source" value="1.8" />
     <property name="line.separator" value="&#xd;&#xa;" />
     <property name="java.specification.version" value="1.8" />
-    <property name="libs.jaxws21.maven-pom" value="" />
     <property name="java.vm.info" value="mixed mode" />
+    <property name="libs.jaxws21.maven-pom" value="" />
     <property name="nb.junit.batch" value="true" />
-    <property name="sun.boot.class.path" value="C:\Program Files\NetBeans 8.2\enterprise\modules\ext\javaee7-endorsed\javax.annotation-api.jar;C:\Program Files\NetBeans 8.2\enterprise\modules\ext\javaee7-endorsed\javax.xml.soap-api.jar;C:\Program Files\NetBeans 8.2\enterprise\modules\ext\javaee7-endorsed\jaxb-api-osgi.jar;C:\Program Files\NetBeans 8.2\enterprise\modules\ext\javaee7-endorsed\jaxws-api.jar;C:\Program Files\NetBeans 8.2\enterprise\modules\ext\javaee7-endorsed\jsr181-api.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_202\jre\classes" />
+    <property name="sun.boot.class.path" value="C:\Program Files\NetBeans 8.2\enterprise\modules\ext\javaee7-endorsed\javax.annotation-api.jar;C:\Program Files\NetBeans 8.2\enterprise\modules\ext\javaee7-endorsed\javax.xml.soap-api.jar;C:\Program Files\NetBeans 8.2\enterprise\modules\ext\javaee7-endorsed\jaxb-api-osgi.jar;C:\Program Files\NetBeans 8.2\enterprise\modules\ext\javaee7-endorsed\jaxws-api.jar;C:\Program Files\NetBeans 8.2\enterprise\modules\ext\javaee7-endorsed\jsr181-api.jar;C:\Program Files\Java\jdk1.8.0_333\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_333\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_333\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_333\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_333\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_333\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_333\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_333\jre\classes" />
     <property name="javac.target" value="1.8" />
     <property name="build.test.classes.dir" value="build/test/classes" />
     <property name="src.dir" value="src/java" />
-    <property name="sun.awt.keepWorkingSetOnMinimize" value="true" />
-    <property name="libs.jpa2-persistence.src" value="" />
     <property name="annotation.processing.enabled" value="true" />
+    <property name="libs.jpa2-persistence.src" value="" />
+    <property name="sun.awt.keepWorkingSetOnMinimize" value="true" />
     <property name="libs.jsf20.src" value="" />
     <property name="libs.jpa20-persistence.src" value="" />
     <property name="libs.jsf12.src" value="" />
@@ -358,26 +363,26 @@
     <property name="dist.dir" value="dist" />
     <property name="libs.groovy-all.javadoc" value="" />
     <property name="testng.debug.mode" value="" />
-    <property name="libs.groovy-all.classpath" value="C:\Program Files\NetBeans 8.2\groovy\modules\ext\groovy-all.jar" />
     <property name="javac.fork" value="false" />
+    <property name="libs.groovy-all.classpath" value="C:\Program Files\NetBeans 8.2\groovy\modules\ext\groovy-all.jar" />
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
     <property name="default.javac.source" value="1.8" />
     <property name="debug-transport-by-os" value="dt_shmem" />
     <property name="sun.jnu.encoding" value="Cp1252" />
     <property name="libs.MySQLDriver.src" value="" />
     <property name="build.test.results.dir" value="build/test/results" />
-    <property name="java.runtime.version" value="1.8.0_202-b08" />
+    <property name="java.runtime.version" value="1.8.0_333-b02" />
     <property name="do.tmp.war.package.with.custom.manifest" value="true" />
     <property name="default.javac.target" value="1.8" />
     <property name="libs.junit_4.classpath" value="C:\Program Files\NetBeans 8.2\platform\modules\ext\junit-4.12.jar" />
     <property name="user.timezone" value="" />
     <property name="nb.junit.single" value="false" />
-    <property name="libs.JAVADB_DRIVER_LABEL.javadoc" value="" />
     <property name="libs.javaee-endorsed-api-6.0.maven-pom" value="" />
+    <property name="libs.JAVADB_DRIVER_LABEL.javadoc" value="" />
     <property name="netbeans.dirs" value="C:\Program Files\NetBeans 8.2\nb;C:\Program Files\NetBeans 8.2\ergonomics;C:\Program Files\NetBeans 8.2\ide;C:\Program Files\NetBeans 8.2\extide;C:\Program Files\NetBeans 8.2\java;C:\Program Files\NetBeans 8.2\apisupport;C:\Program Files\NetBeans 8.2\webcommon;C:\Program Files\NetBeans 8.2\websvccommon;C:\Program Files\NetBeans 8.2\enterprise;C:\Program Files\NetBeans 8.2\mobility;C:\Program Files\NetBeans 8.2\profiler;C:\Program Files\NetBeans 8.2\python;C:\Program Files\NetBeans 8.2\php;C:\Program Files\NetBeans 8.2\identity;C:\Program Files\NetBeans 8.2\harness;C:\Program Files\NetBeans 8.2\cnd;C:\Program Files\NetBeans 8.2\cndext;C:\Program Files\NetBeans 8.2\dlight;C:\Program Files\NetBeans 8.2\groovy;C:\Program Files\NetBeans 8.2\extra;C:\Program Files\NetBeans 8.2\javacard;C:\Program Files\NetBeans 8.2\javafx" />
     <property name="libs.jsf20.javadoc" value="C:\Program Files\NetBeans 8.2\enterprise\docs\javaee-doc-api.jar" />
     <property name="libs.jstl.javadoc" value="C:\Program Files\NetBeans 8.2\enterprise\docs\javaee-doc-api.jar" />
-    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_333\jre\lib\ext;C:\Windows\Sun\Java\lib\ext" />
     <property name="libs.metro.src" value="" />
     <property name="endorsed.classpath" value="C:\Program Files\NetBeans 8.2\enterprise\modules\ext\javaee7-endorsed\javax.annotation-api.jar;C:\Program Files\NetBeans 8.2\enterprise\modules\ext\javaee7-endorsed\javax.xml.soap-api.jar;C:\Program Files\NetBeans 8.2\enterprise\modules\ext\javaee7-endorsed\jaxb-api-osgi.jar;C:\Program Files\NetBeans 8.2\enterprise\modules\ext\javaee7-endorsed\jaxws-api.jar;C:\Program Files\NetBeans 8.2\enterprise\modules\ext\javaee7-endorsed\jsr181-api.jar" />
     <property name="libs.absolutelayout.classpath" value="C:\Program Files\NetBeans 8.2\java\modules\ext\AbsoluteLayout.jar" />
@@ -387,8 +392,8 @@
     <property name="libs.jpa2-persistence.javadoc" value="C:\Program Files\NetBeans 8.2\java\modules\ext\docs\javax.persistence-2.1.0-doc.zip" />
     <property name="libs.DataBindingME.javadoc" value="C:\Program Files\NetBeans 8.2\mobility\modules\docs\netbeans_databindingme-api.zip" />
     <property name="apple.laf.useScreenMenuBar" value="true" />
-    <property name="java.class.path" value="C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\antlr-2.7.7.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\c3p0-0.9.2.1.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-c3p0-4.3.1.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\mchange-commons-java-0.2.3.4.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\dom4j-1.6.1.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\ehcache-core-2.4.3.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-ehcache-4.3.1.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-core-4.3.1.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\jboss-logging-3.1.3.GA.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-commons-annotations-4.0.4.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-entitymanager-4.3.1.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\javassist-3.18.1-GA.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\jboss-transaction-api_1.2_spec-1.0.0.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\slf4j-api-1.6.1.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\slf4j-simple-1.6.1.jar;C:\Users\Hp\OneDrive\Dokumen\NetBeansProjects\u-Movie\build\web\WEB-INF\lib\BootsFaces-OSP-1.5.0.jar;C:\Program Files\NetBeans 8.2\ide\modules\ext\mysql-connector-java-5.1.23-bin.jar;C:\Users\Hp\OneDrive\Dokumen\NetBeansProjects\u-Movie\build\web\WEB-INF\classes;C:\Program Files\NetBeans 8.2\platform\modules\ext\junit-4.12.jar;C:\Program Files\NetBeans 8.2\platform\modules\ext\hamcrest-core-1.3.jar;C:\Users\Hp\OneDrive\Dokumen\NetBeansProjects\u-Movie\build\test\classes;C:\Program Files\glassfish-4.1.1\glassfish\modules\endorsed\javax.annotation-api.jar;C:\Program Files\glassfish-4.1.1\glassfish\modules\endorsed\jaxb-api.jar;C:\Program Files\glassfish-4.1.1\glassfish\modules\endorsed\webservices-api-osgi.jar;C:\Program Files\glassfish-4.1.1\glassfish\modules\bean-validator.jar;C:\Program Files\glassfish-4.1.1\glassfish\modules\cdi-api.jar;C:\Program Files\glassfish-4.1.1\glassfish\modules\javax.batch-api.jar;C:\Program Files\glassfish-4.1.1\glassfish\modules\javax.ejb-api.jar;C:\Program Files\glassfish-4.1.1\glassfish\modules\javax.el.jar;C:\Program Files\glassfish-4.1.1\glassfish\modules\javax.enterprise.concurrent-api.jar;C:\Program Files\glassfish-4.1.1\glassfish\modules\javax.enterprise.concurrent.jar;C:\Program Files\glassfish-4.1.1\glassfish\modules\javax.enterprise.deploy-api.jar;C:\Program Files\glassfish-4.1.1\glassfish\modules\javax.faces.jar;C:\Program Files\glassfish-4.1.1\glassfish\modules\javax.inject.jar;C:\Program Files\glassfish-4.1.1\glassfish\modules\javax.interceptor-api.jar;C:\Program Files\glassfish-4.1.1\glassfish\modules\javax.jms-api.jar;C:\Program Files\glassfish-4.1.1\glassfish\modules\javax.json.jar;C:\Program Files\glassfish-4.1.1\glassfish\modules\javax.mail.jar;C:\Program Files\glassfish-4.1.1\glassfish\modules\javax.management.j2ee-api.jar;C:\Program Files\glassfish-4.1.1\glassfish\modules\javax.persistence.jar;C:\Program Files\glassfish-4.1.1\glassfish\modules\javax.resource-api.jar;C:\Program Files\glassfish-4.1.1\glassfish\modules\javax.security.auth.message-api.jar;C:\Program Files\glassfish-4.1.1\glassfish\modules\javax.security.jacc-api.jar;C:\Program Files\glassfish-4.1.1\glassfish\modules\javax.servlet-api.jar;C:\Program Files\glassfish-4.1.1\glassfish\modules\javax.servlet.jsp-api.jar;C:\Program Files\glassfish-4.1.1\glassfish\modules\javax.servlet.jsp.jar;C:\Program Files\glassfish-4.1.1\glassfish\modules\javax.servlet.jsp.jstl-api.jar;C:\Program Files\glassfish-4.1.1\glassfish\modules\javax.servlet.jsp.jstl.jar;C:\Program Files\glassfish-4.1.1\glassfish\modules\javax.transaction-api.jar;C:\Program Files\glassfish-4.1.1\glassfish\modules\javax.websocket-api.jar;C:\Program Files\glassfish-4.1.1\glassfish\modules\javax.ws.rs-api.jar;C:\Program Files\glassfish-4.1.1\glassfish\modules\javax.xml.registry-api.jar;C:\Program Files\glassfish-4.1.1\glassfish\modules\javax.xml.rpc-api.jar;C:\Program Files\glassfish-4.1.1\glassfish\modules\jaxb-osgi.jar;C:\Program Files\glassfish-4.1.1\glassfish\modules\webservices-osgi.jar;C:\Program Files\glassfish-4.1.1\glassfish\modules\weld-osgi-bundle.jar;C:\Program Files\glassfish-4.1.1\mq\lib\jaxm-api.jar;C:\Program Files\glassfish-4.1.1\glassfish\lib\embedded\glassfish-embedded-static-shell.jar;C:\Program Files\NetBeans 8.2\extide\ant\lib\ant-launcher.jar;C:\Program Files\NetBeans 8.2\extide\ant\lib\ant.jar;C:\Program Files\NetBeans 8.2\extide\ant\lib\ant-junit.jar;C:\Program Files\NetBeans 8.2\extide\ant\lib\ant-junit4.jar;C:\Users\Hp\AppData\Roaming\NetBeans\8.2\modules\ext\jacocoagent.jar" />
-    <property name="ant.file.u-Movie-impl" value="C:\Users\Hp\OneDrive\Dokumen\NetBeansProjects\u-Movie\nbproject\build-impl.xml" />
+    <property name="java.class.path" value="C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\antlr-2.7.7.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\c3p0-0.9.2.1.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-c3p0-4.3.1.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\mchange-commons-java-0.2.3.4.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\dom4j-1.6.1.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\ehcache-core-2.4.3.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-ehcache-4.3.1.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-core-4.3.1.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\jboss-logging-3.1.3.GA.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-commons-annotations-4.0.4.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-entitymanager-4.3.1.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\javassist-3.18.1-GA.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\jboss-transaction-api_1.2_spec-1.0.0.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\slf4j-api-1.6.1.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\slf4j-simple-1.6.1.jar;C:\Users\Farhan\Documents\BootsFaces-OSP-1.5.0.jar;C:\Program Files\NetBeans 8.2\ide\modules\ext\mysql-connector-java-5.1.23-bin.jar;C:\Users\Farhan\Documents\NetBeansProjects\project2-Testing\u-Movie\build\web\WEB-INF\classes;C:\Program Files\NetBeans 8.2\platform\modules\ext\junit-4.12.jar;C:\Program Files\NetBeans 8.2\platform\modules\ext\hamcrest-core-1.3.jar;C:\Users\Farhan\Documents\NetBeansProjects\project2-Testing\u-Movie\build\test\classes;C:\Program Files\glassfish-4.1.1\glassfish\modules\endorsed\javax.annotation-api.jar;C:\Program Files\glassfish-4.1.1\glassfish\modules\endorsed\jaxb-api.jar;C:\Program Files\glassfish-4.1.1\glassfish\modules\endorsed\webservices-api-osgi.jar;C:\Program Files\glassfish-4.1.1\glassfish\modules\bean-validator.jar;C:\Program Files\glassfish-4.1.1\glassfish\modules\cdi-api.jar;C:\Program Files\glassfish-4.1.1\glassfish\modules\javax.batch-api.jar;C:\Program Files\glassfish-4.1.1\glassfish\modules\javax.ejb-api.jar;C:\Program Files\glassfish-4.1.1\glassfish\modules\javax.el.jar;C:\Program Files\glassfish-4.1.1\glassfish\modules\javax.enterprise.concurrent-api.jar;C:\Program Files\glassfish-4.1.1\glassfish\modules\javax.enterprise.concurrent.jar;C:\Program Files\glassfish-4.1.1\glassfish\modules\javax.enterprise.deploy-api.jar;C:\Program Files\glassfish-4.1.1\glassfish\modules\javax.faces.jar;C:\Program Files\glassfish-4.1.1\glassfish\modules\javax.inject.jar;C:\Program Files\glassfish-4.1.1\glassfish\modules\javax.interceptor-api.jar;C:\Program Files\glassfish-4.1.1\glassfish\modules\javax.jms-api.jar;C:\Program Files\glassfish-4.1.1\glassfish\modules\javax.json.jar;C:\Program Files\glassfish-4.1.1\glassfish\modules\javax.mail.jar;C:\Program Files\glassfish-4.1.1\glassfish\modules\javax.management.j2ee-api.jar;C:\Program Files\glassfish-4.1.1\glassfish\modules\javax.persistence.jar;C:\Program Files\glassfish-4.1.1\glassfish\modules\javax.resource-api.jar;C:\Program Files\glassfish-4.1.1\glassfish\modules\javax.security.auth.message-api.jar;C:\Program Files\glassfish-4.1.1\glassfish\modules\javax.security.jacc-api.jar;C:\Program Files\glassfish-4.1.1\glassfish\modules\javax.servlet-api.jar;C:\Program Files\glassfish-4.1.1\glassfish\modules\javax.servlet.jsp-api.jar;C:\Program Files\glassfish-4.1.1\glassfish\modules\javax.servlet.jsp.jar;C:\Program Files\glassfish-4.1.1\glassfish\modules\javax.servlet.jsp.jstl-api.jar;C:\Program Files\glassfish-4.1.1\glassfish\modules\javax.servlet.jsp.jstl.jar;C:\Program Files\glassfish-4.1.1\glassfish\modules\javax.transaction-api.jar;C:\Program Files\glassfish-4.1.1\glassfish\modules\javax.websocket-api.jar;C:\Program Files\glassfish-4.1.1\glassfish\modules\javax.ws.rs-api.jar;C:\Program Files\glassfish-4.1.1\glassfish\modules\javax.xml.registry-api.jar;C:\Program Files\glassfish-4.1.1\glassfish\modules\javax.xml.rpc-api.jar;C:\Program Files\glassfish-4.1.1\glassfish\modules\jaxb-osgi.jar;C:\Program Files\glassfish-4.1.1\glassfish\modules\webservices-osgi.jar;C:\Program Files\glassfish-4.1.1\glassfish\modules\weld-osgi-bundle.jar;C:\Program Files\glassfish-4.1.1\mq\lib\jaxm-api.jar;C:\Program Files\glassfish-4.1.1\glassfish\lib\embedded\glassfish-embedded-static-shell.jar;C:\Program Files\NetBeans 8.2\extide\ant\lib\ant-launcher.jar;C:\Program Files\NetBeans 8.2\extide\ant\lib\ant.jar;C:\Program Files\NetBeans 8.2\extide\ant\lib\ant-junit.jar;C:\Program Files\NetBeans 8.2\extide\ant\lib\ant-junit4.jar;C:\Users\Farhan\AppData\Roaming\NetBeans\8.2\modules\ext\jacocoagent.jar" />
+    <property name="ant.file.u-Movie-impl" value="C:\Users\Farhan\Documents\NetBeansProjects\project2-Testing\u-Movie\nbproject\build-impl.xml" />
     <property name="libs.absolutelayout.src" value="" />
     <property name="libs.jpa20-persistence.classpath" value="C:\Program Files\NetBeans 8.2\java\modules\ext\eclipselink\javax.persistence_2.1.0.v201304241213.jar" />
     <property name="j2ee.server.type" value="gfv3ee6" />
@@ -400,13 +405,13 @@
     <property name="libs.hibernate4-persistence.src" value="" />
     <property name="libs.hibernate4-support.maven-pom" value="" />
     <property name="libs.Comet-GlassFish-v3.src" value="" />
-    <property name="war.content.additional" value="" />
     <property name="libs.restlib.javadoc" value="" />
+    <property name="war.content.additional" value="" />
     <property name="libs.JAXB-ENDORSED.classpath" value="C:\Program Files\NetBeans 8.2\ide\modules\ext\jaxb\api\jaxb-api.jar" />
-    <property name="ant.file.u-Movie" value="C:\Users\Hp\OneDrive\Dokumen\NetBeansProjects\u-Movie\build.xml" />
+    <property name="ant.file.u-Movie" value="C:\Users\Farhan\Documents\NetBeansProjects\project2-Testing\u-Movie\build.xml" />
     <property name="j2ee.platform.embeddableejb.classpath" value="C:/Program Files/glassfish-4.1.1/glassfish/lib/embedded/glassfish-embedded-static-shell.jar" />
-    <property name="libs.javaee-api-7.0.javadoc" value="C:\Program Files\NetBeans 8.2\enterprise\docs\javaee-doc-api.jar" />
     <property name="libs.eclipselink.classpath" value="C:\Program Files\NetBeans 8.2\java\modules\ext\eclipselink\eclipselink.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\eclipselink\javax.persistence_2.1.0.v201304241213.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\eclipselink\org.eclipse.persistence.jpa.jpql_2.5.2.v20140319-9ad6abd.jar" />
+    <property name="libs.javaee-api-7.0.javadoc" value="C:\Program Files\NetBeans 8.2\enterprise\docs\javaee-doc-api.jar" />
     <property name="libs.beans-binding.javadoc" value="C:\Program Files\NetBeans 8.2\java\docs\beansbinding-1.2.1-doc.zip" />
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
     <property name="java.vm.vendor" value="Oracle Corporation" />
@@ -414,6 +419,7 @@
     <property name="libs.spring-framework300.classpath" value="C:\Program Files\NetBeans 8.2\ide\modules\org-apache-commons-logging.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\cglib-2.2.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\spring-3.0\spring-aop-3.2.7.RELEASE.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\spring-3.0\spring-aspects-3.2.7.RELEASE.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\spring-3.0\spring-beans-3.2.7.RELEASE.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\spring-3.0\spring-build-src-3.2.7.RELEASE.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\spring-3.0\spring-context-3.2.7.RELEASE.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\spring-3.0\spring-context-support-3.2.7.RELEASE.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\spring-3.0\spring-core-3.2.7.RELEASE.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\spring-3.0\spring-expression-3.2.7.RELEASE.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\spring-3.0\spring-framework-bom-3.2.7.RELEASE.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\spring-3.0\spring-instrument-3.2.7.RELEASE.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\spring-3.0\spring-instrument-tomcat-3.2.7.RELEASE.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\spring-3.0\spring-jdbc-3.2.7.RELEASE.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\spring-3.0\spring-jms-3.2.7.RELEASE.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\spring-3.0\spring-orm-3.2.7.RELEASE.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\spring-3.0\spring-oxm-3.2.7.RELEASE.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\spring-3.0\spring-struts-3.2.7.RELEASE.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\spring-3.0\spring-test-3.2.7.RELEASE.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\spring-3.0\spring-tx-3.2.7.RELEASE.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\spring-3.0\spring-web-3.2.7.RELEASE.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\spring-3.0\spring-webmvc-3.2.7.RELEASE.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\spring-3.0\spring-webmvc-portlet-3.2.7.RELEASE.jar" />
     <property name="libs.jsp-compiler.maven-pom" value="" />
     <property name="libs.hamcrest.src" value="" />
+    <property name="libs.Hbr.classpath" value="C:\Users\Farhan\Downloads\hibernate-search-5.8.0.Final-dist.zip" />
     <property name="libs.hibernate4-persistence.classpath" value="C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\antlr-2.7.7.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\c3p0-0.9.2.1.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-c3p0-4.3.1.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\mchange-commons-java-0.2.3.4.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\dom4j-1.6.1.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\ehcache-core-2.4.3.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-ehcache-4.3.1.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-core-4.3.1.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\jboss-logging-3.1.3.GA.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-commons-annotations-4.0.4.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-entitymanager-4.3.1.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\javassist-3.18.1-GA.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\jboss-transaction-api_1.2_spec-1.0.0.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\slf4j-api-1.6.1.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\slf4j-simple-1.6.1.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-jpa-2.1-api-1.0.0.Final.jar" />
     <property name="libs.JAXB-ENDORSED.src" value="" />
     <property name="dist.archive.excludes" value="" />
@@ -424,93 +430,72 @@
     <property name="libs.jsf12.maven-pom" value="" />
     <property name="libs.hibernate4-persistencemodelgen.classpath" value="C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-jpamodelgen-4.3.1.Final.jar" />
     <property name="annotation.processing.source.output" value="build/generated-sources/ap-source-output" />
-    <property name="build.dir" value="build" />
     <property name="libs.CopyLibs.src" value="" />
+    <property name="build.dir" value="build" />
     <property name="libs.jsp-compilation.classpath" value="C:\Program Files\NetBeans 8.2\extide\ant\lib\ant.jar;C:\Program Files\NetBeans 8.2\enterprise\modules\ext\servlet3.1-jsp2.3-api.jar;C:\Program Files\NetBeans 8.2\enterprise\modules\ext\glassfish-jspparser-4.0.jar;C:\Program Files\NetBeans 8.2\enterprise\modules\ext\jsf-2_2\javax.faces.jar;C:\Program Files\NetBeans 8.2\enterprise\modules\ext\jstl-api.jar;C:\Program Files\NetBeans 8.2\extide\ant\lib\ant-launcher.jar" />
-    <property name="j2ee.platform.is.jsr109" value="true" />
     <property name="ant.version" value="Apache Ant(TM) version 1.9.7 compiled on April 9 2016" />
+    <property name="j2ee.platform.is.jsr109" value="true" />
     <property name="selected.browser" value="Chrome.INTEGRATED" />
-    <property name="file.encoding" value="Cp1252" />
     <property name="build.classes.excludes" value="**/*.java,**/*.form" />
-    <property name="jdkBug6558476" value="false" />
+    <property name="file.encoding" value="Cp1252" />
     <property name="javadoc.nonavbar" value="false" />
+    <property name="jdkBug6558476" value="false" />
     <property name="libs.spring-webmvc4.0.classpath" value="C:\Program Files\NetBeans 8.2\java\modules\ext\spring-4\spring-webmvc-4.0.1.RELEASE.jar" />
     <property name="platform.active" value="default_platform" />
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
     <property name="war.ear.name" value="u-Movie.war" />
     <property name="libs.javaee-web-api-7.0.javadoc" value="C:\Program Files\NetBeans 8.2\enterprise\docs\javaee-doc-api.jar" />
   </properties>
-  <testcase classname="dao.movDAOTest" name="testDeleteMovie" time="10.775">
-    <failure message="The test case is a prototype." type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: The test case is a prototype.
-	at dao.movDAOTest.testDeleteMovie(movDAOTest.java:84)
-</failure>
-  </testcase>
-  <testcase classname="dao.movDAOTest" name="testEditMovie" time="0.002">
-    <failure message="The test case is a prototype." type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: The test case is a prototype.
-	at dao.movDAOTest.testEditMovie(movDAOTest.java:97)
-</failure>
-  </testcase>
-  <testcase classname="dao.movDAOTest" name="testAddMovie" time="0.001">
-    <failure message="The test case is a prototype." type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: The test case is a prototype.
-	at dao.movDAOTest.testAddMovie(movDAOTest.java:71)
-</failure>
-  </testcase>
-  <testcase classname="dao.movDAOTest" name="testGetbyID" time="0.424">
-    <failure message="expected:&lt;null&gt; but was:&lt;[]&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: expected:&lt;null&gt; but was:&lt;[]&gt;
-	at dao.movDAOTest.testGetbyID(movDAOTest.java:56)
-</failure>
-  </testcase>
-  <testcase classname="dao.movDAOTest" name="testRtvMov" time="0.041">
-    <failure message="expected:&lt;null&gt; but was:&lt;[pojo.Movies@664a9613, pojo.Movies@3c9168dc, pojo.Movies@332a7fce, pojo.Movies@549621f3, pojo.Movies@54361a9]&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: expected:&lt;null&gt; but was:&lt;[pojo.Movies@664a9613, pojo.Movies@3c9168dc, pojo.Movies@332a7fce, pojo.Movies@549621f3, pojo.Movies@54361a9]&gt;
-	at dao.movDAOTest.testRtvMov(movDAOTest.java:41)
-</failure>
-  </testcase>
-  <system-out><![CDATA[deleteMovie
-java.lang.NullPointerException
-editMovie
-java.lang.IllegalArgumentException: attempt to create saveOrUpdate event with null entity
-addMovie
-java.lang.IllegalArgumentException: attempt to create saveOrUpdate event with null entity
-getbyID
-rtvMov
+  <testcase classname="dao.movDAOTest" name="testDeleteMovie" time="0.989" />
+  <testcase classname="dao.movDAOTest" name="testEditMovie" time="0.027" />
+  <testcase classname="dao.movDAOTest" name="testAddMovie" time="0.377" />
+  <testcase classname="dao.movDAOTest" name="testGetbyID" time="0.081" />
+  <testcase classname="dao.movDAOTest" name="testRtvMov" time="0.005" />
+  <system-out><![CDATA[Test Delete Movie
+org.hibernate.ObjectNotFoundException: No row with the given identifier exists: [pojo.Movies#13]
+Test Edit Movie
+Test add a movie
+Test Search by ID
+Test Movie List
+Total movies: 11
 ]]></system-out>
-  <system-err><![CDATA[Nov 02, 2022 5:07:55 PM org.hibernate.annotations.common.reflection.java.JavaReflectionManager <clinit>
+  <system-err><![CDATA[Nov 02, 2022 9:42:21 PM org.hibernate.annotations.common.reflection.java.JavaReflectionManager <clinit>
 INFO: HCANN000001: Hibernate Commons Annotations {4.0.4.Final}
-Nov 02, 2022 5:07:55 PM org.hibernate.Version logVersion
+Nov 02, 2022 9:42:21 PM org.hibernate.Version logVersion
 INFO: HHH000412: Hibernate Core {4.3.1.Final}
-Nov 02, 2022 5:07:55 PM org.hibernate.cfg.Environment <clinit>
+Nov 02, 2022 9:42:21 PM org.hibernate.cfg.Environment <clinit>
 INFO: HHH000206: hibernate.properties not found
-Nov 02, 2022 5:07:55 PM org.hibernate.cfg.Environment buildBytecodeProvider
+Nov 02, 2022 9:42:21 PM org.hibernate.cfg.Environment buildBytecodeProvider
 INFO: HHH000021: Bytecode provider name : javassist
-Nov 02, 2022 5:07:55 PM org.hibernate.cfg.Configuration configure
+Nov 02, 2022 9:42:21 PM org.hibernate.cfg.Configuration configure
 INFO: HHH000043: Configuring from resource: /hibernate.cfg.xml
-Nov 02, 2022 5:07:55 PM org.hibernate.cfg.Configuration getConfigurationInputStream
+Nov 02, 2022 9:42:21 PM org.hibernate.cfg.Configuration getConfigurationInputStream
 INFO: HHH000040: Configuration resource: /hibernate.cfg.xml
-Nov 02, 2022 5:07:55 PM org.hibernate.internal.util.xml.DTDEntityResolver resolveEntity
+Nov 02, 2022 9:42:21 PM org.hibernate.internal.util.xml.DTDEntityResolver resolveEntity
 WARN: HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
-Nov 02, 2022 5:07:55 PM org.hibernate.cfg.Configuration addResource
+Nov 02, 2022 9:42:21 PM org.hibernate.cfg.Configuration addResource
 INFO: HHH000221: Reading mappings from resource: pojo/Staff.hbm.xml
-Nov 02, 2022 5:07:55 PM org.hibernate.cfg.Configuration addResource
+Nov 02, 2022 9:42:21 PM org.hibernate.cfg.Configuration addResource
 INFO: HHH000221: Reading mappings from resource: pojo/Movies.hbm.xml
-Nov 02, 2022 5:07:56 PM org.hibernate.cfg.Configuration doConfigure
+Nov 02, 2022 9:42:21 PM org.hibernate.cfg.Configuration doConfigure
 INFO: HHH000041: Configured SessionFactory: null
-Nov 02, 2022 5:07:56 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+Nov 02, 2022 9:42:21 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
 WARN: HHH000402: Using Hibernate built-in connection pool (not for production use!)
-Nov 02, 2022 5:07:56 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+Nov 02, 2022 9:42:21 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
 INFO: HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/movies_iventory?zeroDateTimeBehavior=convertToNull]
-Nov 02, 2022 5:07:56 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+Nov 02, 2022 9:42:21 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
 INFO: HHH000046: Connection properties: {user=root}
-Nov 02, 2022 5:07:56 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+Nov 02, 2022 9:42:21 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
 INFO: HHH000006: Autocommit mode: false
-Nov 02, 2022 5:07:56 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+Nov 02, 2022 9:42:21 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
 INFO: HHH000115: Hibernate connection pool size: 20 (min=1)
-Nov 02, 2022 5:07:57 PM org.hibernate.dialect.Dialect <init>
+Nov 02, 2022 9:42:21 PM org.hibernate.dialect.Dialect <init>
 INFO: HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
-Nov 02, 2022 5:07:58 PM org.hibernate.engine.transaction.internal.TransactionFactoryInitiator initiateService
+Nov 02, 2022 9:42:21 PM org.hibernate.engine.transaction.internal.TransactionFactoryInitiator initiateService
 INFO: HHH000399: Using default transaction strategy (direct JDBC transactions)
-Nov 02, 2022 5:07:58 PM org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory <init>
+Nov 02, 2022 9:42:21 PM org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory <init>
 INFO: HHH000397: Using ASTQueryTranslatorFactory
-Nov 02, 2022 5:07:58 PM org.hibernate.validator.internal.util.Version <clinit>
+Nov 02, 2022 9:42:21 PM org.hibernate.validator.internal.util.Version <clinit>
 INFO: HV000001: Hibernate Validator 5.1.2.Final
 ]]></system-err>
 </testsuite>

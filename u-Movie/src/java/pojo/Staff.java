@@ -3,11 +3,7 @@ package pojo;
 
 import dao.staffDAO;
 import java.util.List;
-import javax.faces.application.FacesMessage;
 import javax.faces.bean.ManagedBean;
-import javax.faces.context.FacesContext;
-import javax.servlet.http.HttpSession;
-import util.fdoUtil;
 
 
 
@@ -26,36 +22,21 @@ public class Staff  implements java.io.Serializable {
         staffDAO sd = new staffDAO();
         List<Staff> st = sd.getBy(username, password);
         try {
-            if (st != null) {
+            if (!st.isEmpty()) {
                 username = st.get(0).username;
                 password = st.get(0).password;
-                HttpSession session = fdoUtil.getSession();
-		session.setAttribute("username", username);
-                FacesContext.getCurrentInstance().addMessage(
-			null,
-			new FacesMessage(FacesMessage.SEVERITY_INFO,
-				"YOU LOGGED IN AS: ",
-				username));
                 return "dashboard";
             } else{
                 
             }
         } catch (Exception e) {
             System.out.println(e);
-            FacesContext.getCurrentInstance().addMessage(
-			null,
-			new FacesMessage(FacesMessage.SEVERITY_ERROR,
-				"LOGGIN ERROR:   ",
-				"INCORRECT USERNAME OR PASSWORD!"));
             username = "";
             password = "";
         }
         return "index";
     }
-    public String logout() {
-	HttpSession session = fdoUtil.getSession();
-	session.invalidate();
-        
+    public String logout() {  
 	return "index";
     }
     public Staff() {

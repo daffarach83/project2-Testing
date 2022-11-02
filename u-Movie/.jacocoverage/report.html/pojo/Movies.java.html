@@ -5,9 +5,7 @@
 import dao.movDAO;
 import java.util.Date;
 import java.util.List;
-import javax.faces.application.FacesMessage;
 import javax.faces.bean.ManagedBean;
-import javax.faces.context.FacesContext;
 import util.fdoUtil;
 
 /**
@@ -30,195 +28,160 @@ public class Movies  implements java.io.Serializable {
      private String tempimg;
      
     public List&lt;Movies&gt; getAllMov() {
-<span class="nc" id="L33">        movDAO lib = new movDAO();</span>
-<span class="nc" id="L34">        List&lt;Movies&gt; listMov = lib.rtvMov();</span>
-<span class="nc" id="L35">        return listMov;</span>
+<span class="fc" id="L31">        movDAO lib = new movDAO();</span>
+<span class="fc" id="L32">        List&lt;Movies&gt; listMov = lib.rtvMov();</span>
+<span class="fc" id="L33">        return listMov;</span>
     }
     
     public String goBack(){
-<span class="nc" id="L39">        FacesContext.getCurrentInstance().addMessage(</span>
-		null,
-		new FacesMessage(FacesMessage.SEVERITY_WARN,
-			&quot;You're Cancelling Editing Movie &quot;,
-			title));
-<span class="nc" id="L44">     id = null; title = &quot;&quot;; ytlink = &quot;&quot;; genre = &quot;&quot;; rdate = null; language = &quot;&quot;; casts = &quot;&quot;; director = &quot;&quot;; production = &quot;&quot;;</span>
-<span class="nc" id="L45">       return &quot;dashboard&quot;;</span>
+<span class="fc" id="L37">     id = null; title = &quot;&quot;; ytlink = &quot;&quot;; genre = &quot;&quot;; rdate = null; language = &quot;&quot;; casts = &quot;&quot;; director = &quot;&quot;; production = &quot;&quot;;</span>
+<span class="fc" id="L38">       return &quot;dashboard&quot;;</span>
     }
 
     public String deleteMov(int ids) {
-<span class="nc" id="L49">        movDAO mov = new movDAO();</span>
-<span class="nc" id="L50">        mov.deleteMovie(ids);</span>
-<span class="nc" id="L51">        FacesContext.getCurrentInstance().addMessage(</span>
-					null,
-					new FacesMessage(FacesMessage.SEVERITY_INFO,
-							&quot;SUCCESSFULLY !!DELETE!! THE MOVIE &quot;,
-                                                &quot;&quot;));
-<span class="nc" id="L56">     id = null; title = &quot;&quot;; ytlink = &quot;&quot;; genre = &quot;&quot;; rdate = null; language = &quot;&quot;; casts = &quot;&quot;; director = &quot;&quot;; production = &quot;&quot;;</span>
-<span class="nc" id="L57">        return &quot;dashboard&quot;;</span>
+<span class="fc" id="L42">        movDAO mov = new movDAO();</span>
+<span class="fc" id="L43">        mov.deleteMovie(ids);</span>
+<span class="fc" id="L44">     id = null; title = &quot;&quot;; ytlink = &quot;&quot;; genre = &quot;&quot;; rdate = null; language = &quot;&quot;; casts = &quot;&quot;; director = &quot;&quot;; production = &quot;&quot;;</span>
+<span class="fc" id="L45">        return &quot;dashboard&quot;;</span>
     }
     public String getById(int ids) {
-<span class="nc" id="L60">        id = ids;</span>
-<span class="nc" id="L61">        String idLib = Integer.toString(ids);</span>
-<span class="nc" id="L62">        movDAO mov = new movDAO();</span>
-<span class="nc" id="L63">        List&lt;Movies&gt; listMov = mov.getbyID(idLib);</span>
+<span class="fc" id="L48">        id = ids;</span>
+<span class="fc" id="L49">        String idLib = Integer.toString(ids);</span>
+<span class="fc" id="L50">        movDAO mov = new movDAO();</span>
+<span class="fc" id="L51">        List&lt;Movies&gt; listMov = mov.getbyID(idLib);</span>
         try {
-<span class="nc bnc" id="L65" title="All 2 branches missed.">            if (listMov != null) {</span>
-<span class="nc" id="L66">                title = listMov.get(0).title; tempimg=listMov.get(0).ytlink; ytlink = &quot;https://www.youtube.com/watch?v=&quot;+listMov.get(0).ytlink; genre = listMov.get(0).genre; rdate = listMov.get(0).rdate; language = listMov.get(0).language; casts = listMov.get(0).casts; director = listMov.get(0).director; production = listMov.get(0).production;</span>
-<span class="nc" id="L67">                return &quot;editor&quot;;</span>
+<span class="pc bpc" id="L53" title="1 of 2 branches missed.">            if (!listMov.isEmpty()) {</span>
+<span class="nc" id="L54">                title = listMov.get(0).title; tempimg=listMov.get(0).ytlink; ytlink = &quot;https://www.youtube.com/watch?v=&quot;+listMov.get(0).ytlink; genre = listMov.get(0).genre; rdate = listMov.get(0).rdate; language = listMov.get(0).language; casts = listMov.get(0).casts; director = listMov.get(0).director; production = listMov.get(0).production;</span>
+<span class="nc" id="L55">                return &quot;editor&quot;;</span>
             }else{
-<span class="nc" id="L69">              FacesContext.getCurrentInstance().addMessage(</span>
-		null,
-		new FacesMessage(FacesMessage.SEVERITY_WARN,
-			&quot;MOVIE NOT FOUND&quot;,
-			&quot;&quot;));  
-<span class="nc" id="L74">              return &quot;dashboard&quot;;</span>
+<span class="fc" id="L57">              return &quot;dashboard&quot;;</span>
             }
-<span class="nc" id="L76">        } catch (Exception e) {</span>
-<span class="nc" id="L77">            System.out.println(e);</span>
+<span class="nc" id="L59">        } catch (Exception e) {</span>
+<span class="nc" id="L60">            System.out.println(e);</span>
         }
-<span class="nc" id="L79">        return &quot;dashboard&quot;;</span>
+<span class="nc" id="L62">        return &quot;dashboard&quot;;</span>
     }
 
         public String saveMov() {
-<span class="nc" id="L83">        fdoUtil sch = new fdoUtil();</span>
-<span class="nc" id="L84">        String validation = sch.inputValid(title, ytlink, casts, director, production);</span>
-<span class="nc bnc" id="L85" title="All 2 branches missed.">            if (!validation.isEmpty()) {</span>
-<span class="nc" id="L86">                FacesContext.getCurrentInstance().addMessage(</span>
-					null,
-					new FacesMessage(FacesMessage.SEVERITY_ERROR,
-							&quot;ERROR WHILE ADDING NEW MOVIE DUE TO:&quot;,
-							validation));
-<span class="nc" id="L91">            title = &quot;&quot;; ytlink = &quot;&quot;; genre = &quot;&quot;; rdate = null; language = &quot;&quot;; casts = &quot;&quot;; director = &quot;&quot;; production = &quot;&quot;;</span>
-<span class="nc" id="L92">            return &quot;dashboard&quot;; </span>
+<span class="fc" id="L66">        fdoUtil sch = new fdoUtil();</span>
+<span class="fc" id="L67">        String validation = sch.inputValid(title, ytlink, casts, director, production);</span>
+<span class="pc bpc" id="L68" title="1 of 2 branches missed.">            if (!validation.isEmpty()) {</span>
+<span class="nc" id="L69">            title = &quot;&quot;; ytlink = &quot;&quot;; genre = &quot;&quot;; rdate = null; language = &quot;&quot;; casts = &quot;&quot;; director = &quot;&quot;; production = &quot;&quot;;</span>
+<span class="nc" id="L70">            return &quot;dashboard&quot;; </span>
             } else {
-<span class="nc" id="L94">            String video_id = ytlink.replace(&quot;https://www.youtube.com/watch?v=&quot;, &quot;&quot;);</span>
-<span class="nc" id="L95">            ytlink = video_id;</span>
-<span class="nc" id="L96">            movDAO mov = new movDAO();</span>
-<span class="nc" id="L97">            mov.addMovie(this);</span>
-<span class="nc" id="L98">                FacesContext.getCurrentInstance().addMessage(</span>
-					null,
-					new FacesMessage(FacesMessage.SEVERITY_INFO,
-							&quot;SUCCESS ADDING NEW MOVIE :&quot;,
-							title));
-<span class="nc" id="L103">            title = &quot;&quot;; ytlink = &quot;&quot;; genre = &quot;&quot;; rdate = null; language = &quot;&quot;; casts = &quot;&quot;; director = &quot;&quot;; production = &quot;&quot;;</span>
+<span class="fc" id="L72">            String video_id = ytlink.replace(&quot;https://www.youtube.com/watch?v=&quot;, &quot;&quot;);</span>
+<span class="fc" id="L73">            ytlink = video_id;</span>
+<span class="fc" id="L74">            movDAO mov = new movDAO();</span>
+<span class="fc" id="L75">            mov.addMovie(this);</span>
+<span class="fc" id="L76">            title = &quot;&quot;; ytlink = &quot;&quot;; genre = &quot;&quot;; rdate = null; language = &quot;&quot;; casts = &quot;&quot;; director = &quot;&quot;; production = &quot;&quot;;</span>
             }
-<span class="nc" id="L105">        return &quot;dashboard&quot;;   </span>
+<span class="fc" id="L78">        return &quot;dashboard&quot;;   </span>
     }
         
     public String editMov() {
-<span class="nc" id="L109">        fdoUtil sch = new fdoUtil();</span>
-<span class="nc" id="L110">        String validation = sch.inputValid(title, ytlink, casts, director, production);</span>
-<span class="nc bnc" id="L111" title="All 2 branches missed.">            if (!validation.isEmpty()) {</span>
-<span class="nc" id="L112">                FacesContext.getCurrentInstance().addMessage(</span>
-					null,
-					new FacesMessage(FacesMessage.SEVERITY_ERROR,
-							&quot;ERROR WHILE EDITING MOVIE &quot;+title+&quot; DUE TO:&quot;,
-							validation));
-<span class="nc" id="L117">            tempimg = &quot;&quot;; title = &quot;&quot;; ytlink = &quot;&quot;; genre = &quot;&quot;; rdate = null; language = &quot;&quot;; casts = &quot;&quot;; director = &quot;&quot;; production = &quot;&quot;;</span>
-<span class="nc" id="L118">            return &quot;dashboard&quot;; </span>
+<span class="fc" id="L82">        fdoUtil sch = new fdoUtil();</span>
+<span class="fc" id="L83">        String validation = sch.inputValid(title, ytlink, casts, director, production);</span>
+<span class="pc bpc" id="L84" title="1 of 2 branches missed.">            if (!validation.isEmpty()) {</span>
+<span class="nc" id="L85">            tempimg = &quot;&quot;; title = &quot;&quot;; ytlink = &quot;&quot;; genre = &quot;&quot;; rdate = null; language = &quot;&quot;; casts = &quot;&quot;; director = &quot;&quot;; production = &quot;&quot;;</span>
+<span class="nc" id="L86">            return &quot;dashboard&quot;; </span>
             } else { 
-<span class="nc" id="L120">            String video_id = ytlink.replace(&quot;https://www.youtube.com/watch?v=&quot;, &quot;&quot;);</span>
-<span class="nc" id="L121">            ytlink = video_id;</span>
-<span class="nc" id="L122">            movDAO mov = new movDAO();</span>
-<span class="nc" id="L123">            mov.editMovie(this);</span>
-<span class="nc" id="L124">                FacesContext.getCurrentInstance().addMessage(</span>
-					null,
-					new FacesMessage(FacesMessage.SEVERITY_INFO,
-							&quot;SUCCESS EDITING MOVIE :&quot;,
-							title));
-<span class="nc" id="L129">            tempimg = &quot;&quot;;title = &quot;&quot;; ytlink = &quot;&quot;; genre = &quot;&quot;; rdate = null; language = &quot;&quot;; casts = &quot;&quot;; director = &quot;&quot;; production = &quot;&quot;;</span>
+<span class="fc" id="L88">            String video_id = ytlink.replace(&quot;https://www.youtube.com/watch?v=&quot;, &quot;&quot;);</span>
+<span class="fc" id="L89">            ytlink = video_id;</span>
+<span class="fc" id="L90">            movDAO mov = new movDAO();</span>
+<span class="fc" id="L91">            mov.editMovie(this);</span>
+<span class="fc" id="L92">            tempimg = &quot;&quot;;title = &quot;&quot;; ytlink = &quot;&quot;; genre = &quot;&quot;; rdate = null; language = &quot;&quot;; casts = &quot;&quot;; director = &quot;&quot;; production = &quot;&quot;;</span>
         }      
-<span class="nc" id="L131">        return &quot;dashboard&quot;; </span>
+<span class="fc" id="L94">        return &quot;dashboard&quot;; </span>
     }
      
      
 
-<span class="fc" id="L136">    public Movies() {</span>
-<span class="fc" id="L137">    }</span>
+<span class="fc" id="L99">    public Movies() {</span>
+<span class="fc" id="L100">    }</span>
 
-<span class="nc" id="L139">    public Movies(String title, String ytlink, String genre, Date rdate, String language, String casts, String director, String production) {</span>
-<span class="nc" id="L140">       this.title = title;</span>
-<span class="nc" id="L141">       this.ytlink = ytlink;</span>
-<span class="nc" id="L142">       this.genre = genre;</span>
-<span class="nc" id="L143">       this.rdate = rdate;</span>
-<span class="nc" id="L144">       this.language = language;</span>
-<span class="nc" id="L145">       this.casts = casts;</span>
-<span class="nc" id="L146">       this.director = director;</span>
-<span class="nc" id="L147">       this.production = production;</span>
-<span class="nc" id="L148">    }</span>
+<span class="nc" id="L102">    public Movies(String title, String ytlink, String genre, Date rdate, String language, String casts, String director, String production) {</span>
+<span class="nc" id="L103">       this.title = title;</span>
+<span class="nc" id="L104">       this.ytlink = ytlink;</span>
+<span class="nc" id="L105">       this.genre = genre;</span>
+<span class="nc" id="L106">       this.rdate = rdate;</span>
+<span class="nc" id="L107">       this.language = language;</span>
+<span class="nc" id="L108">       this.casts = casts;</span>
+<span class="nc" id="L109">       this.director = director;</span>
+<span class="nc" id="L110">       this.production = production;</span>
+<span class="nc" id="L111">    }</span>
    
     public Integer getId() {
-<span class="fc" id="L151">        return this.id;</span>
+<span class="fc" id="L114">        return this.id;</span>
     }
     
     public void setId(Integer id) {
-<span class="fc" id="L155">        this.id = id;</span>
-<span class="fc" id="L156">    }</span>
+<span class="fc" id="L118">        this.id = id;</span>
+<span class="fc" id="L119">    }</span>
     public String getTitle() {
-<span class="fc" id="L158">        return this.title;</span>
+<span class="fc" id="L121">        return this.title;</span>
     }
     
     public void setTitle(String title) {
-<span class="fc" id="L162">        this.title = title;</span>
-<span class="fc" id="L163">    }</span>
+<span class="fc" id="L125">        this.title = title;</span>
+<span class="fc" id="L126">    }</span>
     public String getYtlink() {
-<span class="fc" id="L165">        return this.ytlink;</span>
+<span class="fc" id="L128">        return this.ytlink;</span>
     }
     
     public void setYtlink(String ytlink) {
-<span class="fc" id="L169">        this.ytlink = ytlink;</span>
-<span class="fc" id="L170">    }</span>
+<span class="fc" id="L132">        this.ytlink = ytlink;</span>
+<span class="fc" id="L133">    }</span>
     public String getGenre() {
-<span class="fc" id="L172">        return this.genre;</span>
+<span class="fc" id="L135">        return this.genre;</span>
     }
     
     public void setGenre(String genre) {
-<span class="fc" id="L176">        this.genre = genre;</span>
-<span class="fc" id="L177">    }</span>
+<span class="fc" id="L139">        this.genre = genre;</span>
+<span class="fc" id="L140">    }</span>
     public Date getRdate() {
-<span class="fc" id="L179">        return this.rdate;</span>
+<span class="fc" id="L142">        return this.rdate;</span>
     }
     
     public void setRdate(Date rdate) {
-<span class="fc" id="L183">        this.rdate = rdate;</span>
-<span class="fc" id="L184">    }</span>
+<span class="fc" id="L146">        this.rdate = rdate;</span>
+<span class="fc" id="L147">    }</span>
     public String getLanguage() {
-<span class="fc" id="L186">        return this.language;</span>
+<span class="fc" id="L149">        return this.language;</span>
     }
     
     public void setLanguage(String language) {
-<span class="fc" id="L190">        this.language = language;</span>
-<span class="fc" id="L191">    }</span>
+<span class="fc" id="L153">        this.language = language;</span>
+<span class="fc" id="L154">    }</span>
     public String getCasts() {
-<span class="fc" id="L193">        return this.casts;</span>
+<span class="fc" id="L156">        return this.casts;</span>
     }
     
     public void setCasts(String casts) {
-<span class="fc" id="L197">        this.casts = casts;</span>
-<span class="fc" id="L198">    }</span>
+<span class="fc" id="L160">        this.casts = casts;</span>
+<span class="fc" id="L161">    }</span>
     public String getDirector() {
-<span class="fc" id="L200">        return this.director;</span>
+<span class="fc" id="L163">        return this.director;</span>
     }
     
     public void setDirector(String director) {
-<span class="fc" id="L204">        this.director = director;</span>
-<span class="fc" id="L205">    }</span>
+<span class="fc" id="L167">        this.director = director;</span>
+<span class="fc" id="L168">    }</span>
     public String getProduction() {
-<span class="fc" id="L207">        return this.production;</span>
+<span class="fc" id="L170">        return this.production;</span>
     }
     
     public void setProduction(String production) {
-<span class="fc" id="L211">        this.production = production;</span>
-<span class="fc" id="L212">    }</span>
+<span class="fc" id="L174">        this.production = production;</span>
+<span class="fc" id="L175">    }</span>
     
     public String getTempimg() {
-<span class="nc" id="L215">        return this.tempimg;</span>
+<span class="fc" id="L178">        return this.tempimg;</span>
     }
     
     public void setTempimg(String tempimg) {
-<span class="nc" id="L219">        this.tempimg = tempimg;</span>
-<span class="nc" id="L220">    }</span>
+<span class="fc" id="L182">        this.tempimg = tempimg;</span>
+<span class="fc" id="L183">    }</span>
 }
 
 
-</pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.5.201505241946</span></div></body></html>
+</pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.6.201602180812</span></div></body></html>

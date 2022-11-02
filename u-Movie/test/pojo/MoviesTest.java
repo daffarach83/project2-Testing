@@ -74,7 +74,7 @@ public class MoviesTest {
         System.out.println("getById");
         int ids = 13;
         Movies instance = new Movies();
-        String expResult = "editor";
+        String expResult = "dashboard";
         String result = instance.getById(ids);
         assertEquals(expResult, result);
     }
